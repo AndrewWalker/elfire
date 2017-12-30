@@ -1,0 +1,8 @@
+0 untitled model
+0 Name: 1:03:01 part1.ldr
+0 Author: Andrew Walker
+1 15 -30 24 10 0 0 1 -0 1 -0 -1 -0 0 99206.dat
+0 STEP
+1 15 -30 24 -10 -1 -0 0 -0 1 -0 0 -0 -1 3710.dat
+1 15 0 32 -10 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
+0 STEP
