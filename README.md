@@ -8,6 +8,6 @@ This model is based on Nick's wonderful build video [Advanced LEGO Build: Elfire
 
 ## Copyright 
 
-* Elfire Interceptor &copy; Nick Trotta
+* Elfire Interceptor © Nick Trotta
 * LEGO® is a trademark of the LEGO Group.
 * This model is not endorsed by Nick Trotta or the LEGO group.
