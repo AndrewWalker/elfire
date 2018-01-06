@@ -127,4 +127,90 @@
 0 Name: 1:23:33 part9 (asmbly).ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 1:22:20 part7 (asmbly).ldr
+1 8 0 -40 -80 0 0 -0.999999 0 1 0 0.999999 0 0 1:23:02 part8.ldr
+0 NOFILE
+0 FILE 1:23:43 part10.ldr
+0 untitled model
+0 Name: 1:23:43 part10.ldr
+0 Author: Andrew Walker
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 32000.dat
+1 7 0 10 10 1 0 0 0 -0 -1 0 1 -0 3023.dat
+1 7 0 0 28 1 0 0 0 1 0 -0 0 1 11211.dat
+1 8 0 -8 28 1 0 0 0 1 0 -0 0 1 3023.dat
+1 25 0 24 28 1 0 0 0 1 0 -0 0 1 3023.dat
+0 NOFILE
+0 FILE 1:23:59 part11 (asmbly).ldr
+0 untitled model
+0 Name: 1:23:59 part11 (asmbly).ldr
+0 Author: Andrew Walker
+1 25 0 0 0 1 0 0 0 1 0 -0 0 1 1:23:33 part9 (asmbly).ldr
+1 25 1 -72 -70 1 0 0 0 1 0 -0 0 1 1:23:43 part10.ldr
+0 NOFILE
+0 FILE 1:24:18 part12a.ldr
+0 deviated from video to make modelling easier. Bricksmith not liking Euler angles near singularity
+0 Name: 1:24:18 part12a.ldr
+0 Author: Andrew Walker
+1 7 0 -31 16 0 0 -1 0 1 0 1 0 0 4081b.dat
+1 7 10 -47 16 1 0 0 0 1 0 -0 0 1 92280.dat
+1 7 0 -39 16 1 0 0 0 1 0 -0 0 1 3024.dat
+1 47 0 -47 16 -0 0 1 0 1 0 -1 0 -0 54200.dat
+1 7 20 -29 28 -0.866025 0 0.5 -0.5 0 -0.866025 -0 -0.999999 -0 6141.dat
+1 7 20 -29 4 0.866025 0 -0.5 -0.5 0 -0.866025 -0 0.999999 0 6141.dat
+0 NOFILE
+0 FILE 1:24:31 part13a.ldr
+0 untitled model
+0 Name: 1:24:31 part13a.ldr
+0 Author: Andrew Walker
+1 7 6 0 0 0 -0.999999 0 -0 0 0.999999 -0.999999 -0 -0 4081b.dat
+1 14 4 -20 -12 0 0 0.999999 0.999999 0 -0 0 0.999999 -0 4592.dat
+1 7 4 -20 -11 -0.999999 -0 0 -0 0 -0.999999 0 -0.999999 -0 30193.dat
+0 NOFILE
+0 FILE 1:24:31 part13a (reflection).ldr
+0 untitled model
+0 Name: 1:24:31 part13a (reflection).ldr
+0 Author: Andrew Walker
+1 7 1 -1 -7 0 -0.999999 0 -0 0 0.999999 -0.999999 -0 -0 4081b.dat
+1 14 -1 -21 5 0 0 0.999999 -0.999999 0 0 -0 -0.999999 0 4592.dat
+1 7 -1 -21 5 0.999999 0 -0 -0 0 -0.999999 -0 0.999999 0 30193.dat
+0 NOFILE
+0 FILE 1:24:31 part13b.ldr
+0 untitled model
+0 Name: 1:24:31 part13b.ldr
+0 Author: Andrew Walker
+1 14 0 0 -8 0.999999 -0 -0 0 -0 0.999999 0 -0.999999 -0 3023.dat
+1 7 0 0 0 0.999999 -0 -0 0 -0 0.999999 0 -0.999999 -0 3069b.dat
+0 STEP
+1 7 10 0 -22 0 -0.258819 -0.965925 -0 0.965926 -0.258819 0.999999 -0 0 1:24:31 part13a.ldr
+0 STEP
+0 NOFILE
+0 FILE 1:24:31 part13b (reflection).ldr
+0 untitled model
+0 Name: 1:24:31 part13b (reflection).ldr
+0 Author: Andrew Walker
+1 14 36 -15 -8 0.999999 -0 -0 0 -0 0.999999 0 -0.999999 -0 3023.dat
+1 7 36 -15 0 0.999999 -0 -0 0 -0 0.999999 0 -0.999999 -0 3069b.dat
+0 STEP
+1 7 20 -12 -17 -0 0.258819 -0.965925 -0 0.965925 0.258819 0.999999 -0 -0 1:24:31 part13a (reflection).ldr
+0 STEP
+0 NOFILE
+0 FILE 1:24:18 part12b.ldr
+0 untitled model
+0 Name: 1:24:18 part12b.ldr
+0 Author: Andrew Walker
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 1:24:18 part12a.ldr
+1 7 30 -29 -20 -1 0 -0 0 1 0 0 0 -1 1:24:31 part13b.ldr
+1 7 -6 -14 52 1 0 0 0 1 0 -0 0 1 1:24:31 part13b (reflection).ldr
+0 NOFILE
+0 FILE 1:24:54 part14 (asmbly).ldr
+0 untitled model
+0 Name: 1:24:54 part14 (asmbly).ldr
+0 Author: Andrew Walker
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 1:23:59 part11 (asmbly).ldr
+1 7 -16 -33 150 -0 0 1 0 1 0 -1 0 -0 1:24:18 part12b.ldr
+0 NOFILE
+0 FILE untitled model.ldr
+0 untitled model
+0 Name: 
+0 Author: Andrew Walker
+
 0 NOFILE
