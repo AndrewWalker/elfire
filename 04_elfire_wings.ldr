@@ -336,7 +336,6 @@
 1 4 0 -22 13 0 0.999999 0 -0 0 1 0.999999 -0 0 61409.dat
 0 STEP
 1 8 117 -19 -3 0 0.999999 -0 -0 -0 0.999999 0.999999 -0 0 small_wing_bracket2.ldr
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 small_wing_bracket1.ldr
 0 STEP
 0 NOFILE
 0 FILE small_wing_bracket2.ldr
