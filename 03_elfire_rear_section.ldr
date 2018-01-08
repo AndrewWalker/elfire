@@ -1,6 +1,6 @@
-0 FILE 16:54 part1.ldr
+0 FILE 03 rear 16:54 part1.ldr
 0 untitled model
-0 Name: 16:54 part1.ldr
+0 Name: 03 rear 16:54 part1.ldr
 0 Author: Andrew Walker
 1 7 -30.000002 0 30 -1 0 0 0 1 0 0 0 -1 2420.dat
 1 7 -90 0 30 0 0 1 0 1 0 -1 0 0 2420.dat
@@ -16,9 +16,9 @@
 1 7 -30 8.049889 9.611609 -1 -0 -0 -0 1 0 0 0 -1 3024.dat
 0 STEP
 0 NOFILE
-0 FILE 17:47 part2.ldr
+0 FILE 03 rear 17:47 part2.ldr
 0 untitled model
-0 Name: 17:47 part2.ldr
+0 Name: 03 rear 17:47 part2.ldr
 0 Author: Andrew Walker
 1 8 -70 8 38 -1 0 0 0 1 0 0 0 -1 3023.dat
 1 7 -70 0 18 0 0 1 0 1 0 -1 0 0 3021.dat
@@ -33,19 +33,19 @@
 1 8 -100 -1 27.999992 0.999999 -0 0 0 0 1 -0 -0.999999 0 4070.dat
 0 STEP
 0 NOFILE
-0 FILE 18:46 part3 (asmbly).ldr
+0 FILE 03 rear 18:46 part3 (asmbly).ldr
 0 untitled model
-0 Name: 18:46 part3 (asmbly).ldr
+0 Name: 03 rear 18:46 part3 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 16:54 part1.ldr
-1 8 -130 15 68 -1 0 -0 0 1 0 0 0 -1 17:47 part2.ldr
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 16:54 part1.ldr
+1 8 -130 15 68 -1 0 -0 0 1 0 0 0 -1 03 rear 17:47 part2.ldr
 0 STEP
-1 15 -140 110 72 0 0 1 1 0 0 0 1 0 18:57 part4.ldr
+1 15 -140 110 72 0 0 1 1 0 0 0 1 0 03 rear 18:57 part4.ldr
 0 STEP
 0 NOFILE
-0 FILE 18:57 part4.ldr
+0 FILE 03 rear 18:57 part4.ldr
 0 untitled model
-0 Name: 18:57 part4.ldr
+0 Name: 03 rear 18:57 part4.ldr
 0 Author: Andrew Walker
 1 7 -96 -8 50 1 0 0 0 1 0 -0 0 1 3024.dat
 1 7 -96 0 50 1 0 0 0 1 0 -0 0 1 3024.dat
@@ -59,9 +59,9 @@
 1 15 -86 24 30 0 0 -1 0 1 0 1 0 0 61409.dat
 1 15 -86 24 130 0 0 -1 0 1 0 1 0 0 61409.dat
 0 NOFILE
-0 FILE 19:45 part5.ldr
+0 FILE 03 rear 19:45 part5.ldr
 0 untitled model
-0 Name: 19:45 part5.ldr
+0 Name: 03 rear 19:45 part5.ldr
 0 Author: Andrew Walker
 1 7 -51 32 77 -0 -0 0.999999 -1 0 -0 -0 -0.999999 -0 11211.dat
 0 STEP
@@ -74,9 +74,9 @@
 1 8 -41 42 53 -0.999999 0 -0 0 0 -0.999999 0 -0.999999 -0 99780.dat
 0 STEP
 0 NOFILE
-0 FILE 20:13 part6.ldr
+0 FILE 03 rear 20:13 part6.ldr
 0 untitled model
-0 Name: 20:13 part6.ldr
+0 Name: 03 rear 20:13 part6.ldr
 0 Author: Andrew Walker
 1 7 -91 0 89 0 0 1 0 1 0 -1 0 0 2420.dat
 1 7 -31 0 89 -1 0 -0 0 1 0 0 0 -1 2420.dat
@@ -87,16 +87,16 @@
 1 7 -61 24 109 -1 0 -0 0 1 0 0 0 -1 3023.dat
 0 STEP
 0 NOFILE
-0 FILE 20:28 part7 (asmbly).ldr
+0 FILE 03 rear 20:28 part7 (asmbly).ldr
 0 untitled model
-0 Name: 20:28 part7 (asmbly).ldr
+0 Name: 03 rear 20:28 part7 (asmbly).ldr
 0 Author: Andrew Walker
-1 25 -28 112 103 0 -0.999999 -0 0 0 -1 0.999999 0 0 19:45 part5.ldr
-1 25 1 35 -16 1 0 0 0 1 0 -0 0 1 20:13 part6.ldr
+1 25 -28 112 103 0 -0.999999 -0 0 0 -1 0.999999 0 0 03 rear 19:45 part5.ldr
+1 25 1 35 -16 1 0 0 0 1 0 -0 0 1 03 rear 20:13 part6.ldr
 0 NOFILE
-0 FILE 20:40 part8.ldr
+0 FILE 03 rear 20:40 part8.ldr
 0 untitled model
-0 Name: 20:40 part8.ldr
+0 Name: 03 rear 20:40 part8.ldr
 0 Author: Andrew Walker
 1 7 -60 0 -2 1 0 0 0 1 0 -0 0 1 3710.dat
 1 7 -90 -24 -2 1 0 0 0 1 0 -0 0 1 3005.dat
@@ -107,9 +107,9 @@
 1 7 -59 -24 18 1 0 0 0 1 0 -0 0 1 3023.dat
 0 STEP
 0 NOFILE
-0 FILE 21:01 part9.ldr
+0 FILE 03 rear 21:01 part9.ldr
 0 untitled model
-0 Name: 21:01 part9.ldr
+0 Name: 03 rear 21:01 part9.ldr
 0 Author: Andrew Walker
 1 15 -49 -8 12 1 0 0 0 1 0 -0 0 1 3666.dat
 1 15 -89 8 2 1 0 0 0 1 0 -0 0 1 3022.dat
@@ -121,21 +121,21 @@
 1 15 -99 -16 32 1 0 0 0 1 0 -0 0 1 3070b.dat
 1 15 1 -16 32 1 0 0 0 1 0 -0 0 1 3070b.dat
 0 NOFILE
-0 FILE 21:35 part10 (asmbly).ldr
+0 FILE 03 rear 21:35 part10 (asmbly).ldr
 0 untitled model
-0 Name: 21:35 part10 (asmbly).ldr
+0 Name: 03 rear 21:35 part10 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 11 -23 -13 1 0 0 0 1 0 -0 0 1 20:40 part8.ldr
-1 15 0 -63 -27 1 0 0 0 1 0 -0 0 1 21:01 part9.ldr
+1 15 11 -23 -13 1 0 0 0 1 0 -0 0 1 03 rear 20:40 part8.ldr
+1 15 0 -63 -27 1 0 0 0 1 0 -0 0 1 03 rear 21:01 part9.ldr
 0 STEP
-1 15 11 36 -92 1 0 0 0 0 -1 -0 1 0 20:28 part7 (asmbly).ldr
+1 15 11 36 -92 1 0 0 0 0 -1 -0 1 0 03 rear 20:28 part7 (asmbly).ldr
 0 STEP
-1 15 -108 49 19 -1 -0 0 0 -0 -1 0 -0.999999 0 18:46 part3 (asmbly).ldr
+1 15 -108 49 19 -1 -0 0 0 -0 -1 0 -0.999999 0 03 rear 18:46 part3 (asmbly).ldr
 0 STEP
 0 NOFILE
-0 FILE 22:21 part11.ldr
+0 FILE 03 rear 22:21 part11.ldr
 0 untitled model
-0 Name: 22:21 part11.ldr
+0 Name: 03 rear 22:21 part11.ldr
 0 Author: Andrew Walker
 1 15 -60 0 30 1 0 0 0 1 0 -0 0 1 3666.dat
 1 15 -110 -8 30 1 0 0 0 1 0 -0 0 1 3024.dat
@@ -153,9 +153,9 @@
 1 8 -60 6 64 1 0 0 -0 -0 0.999999 0 -1 -0 32000.dat
 0 STEP
 0 NOFILE
-0 FILE 23:22 part12.ldr
+0 FILE 03 rear 23:22 part12.ldr
 0 corrects error as per 25:02
-0 Name: 23:22 part12.ldr
+0 Name: 03 rear 23:22 part12.ldr
 0 Author: Andrew Walker
 1 7 -16 -33 15 1 0 0 0 1 0 -0 0 1 3023.dat
 1 7 -16 -41 15 1 0 0 0 1 0 -0 0 1 3023.dat
@@ -173,9 +173,9 @@
 1 7 -26 -105 15 -0 0 1 0 1 0 -1 0 -0 3040b.dat
 0 STEP
 0 NOFILE
-0 FILE 23:22 part12 (reflection).ldr
+0 FILE 03 rear 23:22 part12 (reflection).ldr
 0 corrects error as per 25:02
-0 Name: 23:22 part12 (reflection).ldr
+0 Name: 03 rear 23:22 part12 (reflection).ldr
 0 Author: Andrew Walker
 1 7 4 -33 15 -1 -0 0 -0 1 -0 0 -0 -1 3023.dat
 1 7 4 -41 15 -1 -0 0 -0 1 -0 0 -0 -1 3023.dat
@@ -193,45 +193,45 @@
 1 7 14 -105 14.999996 0 0 -0.999999 0 1 0 0.999999 0 0 3040b.dat
 0 STEP
 0 NOFILE
-0 FILE 24:34 part13.ldr
+0 FILE 03 rear 24:34 part13.ldr
 0 untitled model
-0 Name: 24:34 part13.ldr
+0 Name: 03 rear 24:34 part13.ldr
 0 Author: Andrew Walker
 1 7 -27 -50 -11 1 0 0 0 1 0 -0 0 1 32000.dat
 1 8 -27 -58 -11 1 0 0 0 1 0 -0 0 1 3023.dat
 1 7 -27 -66 -11 1 0 0 0 1 0 -0 0 1 3710.dat
 1 7 -27 -74 -11 1 0 0 0 1 0 -0 0 1 92593.dat
 0 NOFILE
-0 FILE 25:07 part14 (asmbly).ldr
+0 FILE 03 rear 25:07 part14 (asmbly).ldr
 0 untitled model
-0 Name: 25:07 part14 (asmbly).ldr
+0 Name: 03 rear 25:07 part14 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 -51 32 -30 1 0 0 0 1 0 -0 0 1 23:22 part12.ldr
-1 4 9 32 -30 1 0 0 0 1 0 -0 0 1 23:22 part12 (reflection).ldr
-1 4 0 1 -4 1 0 0 0 1 0 -0 0 1 24:34 part13.ldr
+1 4 -51 32 -30 1 0 0 0 1 0 -0 0 1 03 rear 23:22 part12.ldr
+1 4 9 32 -30 1 0 0 0 1 0 -0 0 1 03 rear 23:22 part12 (reflection).ldr
+1 4 0 1 -4 1 0 0 0 1 0 -0 0 1 03 rear 24:34 part13.ldr
 0 STEP
-1 4 -87 47 -9 -1 -0 0 0 -0 -1 0 -0.999999 0 22:21 part11.ldr
+1 4 -87 47 -9 -1 -0 0 0 -0 -1 0 -0.999999 0 03 rear 22:21 part11.ldr
 0 STEP
 0 NOFILE
-0 FILE 25:57 part15.ldr
+0 FILE 03 rear 25:57 part15.ldr
 0 untitled model
-0 Name: 25:57 part15.ldr
+0 Name: 03 rear 25:57 part15.ldr
 0 Author: Andrew Walker
 1 4 -54 0 -50 1 0 0 0 1 0 -0 0 1 3023.dat
 1 4 -54 -24 -50 1 0 0 0 1 0 -0 0 1 11211.dat
 1 4 -54 -32 -50 1 0 0 0 1 0 -0 0 1 3023.dat
 1 4 -54 -56 -50 1 0 0 0 1 0 -0 0 1 11211.dat
 0 NOFILE
-0 FILE 26:15 part16 (asmbly).ldr
+0 FILE 03 rear 26:15 part16 (asmbly).ldr
 0 untitled model
-0 Name: 26:15 part16 (asmbly).ldr
+0 Name: 03 rear 26:15 part16 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 0 0 -1 1 0 0 0 1 0 -0 0 1 25:07 part14 (asmbly).ldr
-1 4 27 -53 -86 0.999999 0 0 0 -0.999999 0 0 -0 -0.999999 25:57 part15.ldr
+1 4 0 0 -1 1 0 0 0 1 0 -0 0 1 03 rear 25:07 part14 (asmbly).ldr
+1 4 27 -53 -86 0.999999 0 0 0 -0.999999 0 0 -0 -0.999999 03 rear 25:57 part15.ldr
 0 NOFILE
-0 FILE 26:39 part17.ldr
+0 FILE 03 rear 26:39 part17.ldr
 0 untitled model
-0 Name: 26:39 part17.ldr
+0 Name: 03 rear 26:39 part17.ldr
 0 Author: Andrew Walker
 1 4 11 0 -16 1 0 0 0 1 0 -0 0 1 2431.dat
 1 4 -19 0 -16 -0 0 1 0 1 0 -1 0 -0 6005.dat
@@ -239,18 +239,18 @@
 1 4 -59 48 -16 -0 0 -0.999999 -0 1 0 0.999999 0 -0 3005.dat
 1 4 81 48 -16 -0 0 -0.999999 -0 1 0 0.999999 0 -0 3005.dat
 0 NOFILE
-0 FILE 27:00 part18 (asmbly).ldr
+0 FILE 03 rear 27:00 part18 (asmbly).ldr
 0 untitled model
-0 Name: 27:00 part18 (asmbly).ldr
+0 Name: 03 rear 27:00 part18 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 0 0 0 1 0 0 0 1 0 -0 0 1 26:15 part16 (asmbly).ldr
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 26:15 part16 (asmbly).ldr
 0 STEP
-1 4 -38 -69 -20 1 0 0 0 1 0 -0 0 1 26:39 part17.ldr
+1 4 -38 -69 -20 1 0 0 0 1 0 -0 0 1 03 rear 26:39 part17.ldr
 0 STEP
 0 NOFILE
-0 FILE 27:09 part19.ldr
+0 FILE 03 rear 27:09 part19.ldr
 0 untitled model
-0 Name: 27:09 part19.ldr
+0 Name: 03 rear 27:09 part19.ldr
 0 Author: Andrew Walker
 1 4 8 0 6 0 0 -0.999999 0 1 0 0.999999 0 0 60477.dat
 1 7 38 24 6 0.999999 0 -0 0 1 0 0 0 0.999999 3023.dat
@@ -263,16 +263,16 @@
 1 7 -2 0 6 0.999999 0 0 0 1 0 -0 0 0.999999 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 27:23 part20 (asmbly).ldr
+0 FILE 03 rear 27:23 part20 (asmbly).ldr
 0 untitled model
-0 Name: 27:23 part20 (asmbly).ldr
+0 Name: 03 rear 27:23 part20 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 27:00 part18 (asmbly).ldr
-1 7 -29 27 -42 -1 0 0 -0 -1 0 0 0 1 27:09 part19.ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 27:00 part18 (asmbly).ldr
+1 7 -29 27 -42 -1 0 0 -0 -1 0 0 0 1 03 rear 27:09 part19.ldr
 0 NOFILE
-0 FILE 27:38 part21.ldr
+0 FILE 03 rear 27:38 part21.ldr
 0 untitled model
-0 Name: 27:38 part21.ldr
+0 Name: 03 rear 27:38 part21.ldr
 0 Author: Andrew Walker
 1 7 14 0 6 1 0 0 0 1 0 -0 0 1 60474.dat
 1 0 14 -24 6 1 0 0 0 1 0 -0 0 1 3941.dat
@@ -285,48 +285,48 @@
 1 8 14 -48 6 1 0 0 0 1 0 0 -0 0.999999 4742.dat
 0 STEP
 0 NOFILE
-0 FILE 28:27 part22 (asmbly).ldr
+0 FILE 03 rear 28:27 part22 (asmbly).ldr
 0 untitled model
-0 Name: 28:27 part22 (asmbly).ldr
+0 Name: 03 rear 28:27 part22 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 27:23 part20 (asmbly).ldr
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 27:23 part20 (asmbly).ldr
 0 STEP
-1 8 -1 -20 -53 1 0 0 0 -0 -1 0 1 0 27:38 part21.ldr
-1 8 -81 -20 -53 1 0 0 0 -0 -1 0 1 0 27:38 part21.ldr
+1 8 -1 -20 -53 1 0 0 0 -0 -1 0 1 0 03 rear 27:38 part21.ldr
+1 8 -81 -20 -53 1 0 0 0 -0 -1 0 1 0 03 rear 27:38 part21.ldr
 0 STEP
 0 NOFILE
-0 FILE 28:48 part23.ldr
+0 FILE 03 rear 28:48 part23.ldr
 0 untitled model
-0 Name: 28:48 part23.ldr
+0 Name: 03 rear 28:48 part23.ldr
 0 Author: Andrew Walker
 1 7 -12 0 -61 1 0 0 0 1 0 -0 0 1 60481.dat
 1 7 8 0 -61 1 0 0 0 1 0 -0 0 1 60481.dat
 1 7 -2 -8 -61 1 0 0 0 1 0 -0 0 1 3023.dat
 1 7 -12 48 -81 0 0 -0.999999 0 1 0 0.999999 0 0 3665.dat
 0 NOFILE
-0 FILE 28:48 part23 (reflection).ldr
+0 FILE 03 rear 28:48 part23 (reflection).ldr
 0 untitled model
-0 Name: 28:48 part23 (reflection).ldr
+0 Name: 03 rear 28:48 part23 (reflection).ldr
 0 Author: Andrew Walker
 1 7 8 0 -61 -1 0 -0 0 1 0 0 0 -1 60481.dat
 1 7 -12 0 -61 -1 -0 -0 -0 1 -0 0 -0 -1 60481.dat
 1 7 -2 -8 -61 1 0 0 0 1 0 -0 0 1 3023.dat
 1 7 -12 48 -41 0 0 -0.999999 0 1 0 0.999999 0 0 3665.dat
 0 NOFILE
-0 FILE 29:04 part24 (asmbly).ldr
+0 FILE 03 rear 29:04 part24 (asmbly).ldr
 0 untitled model
-0 Name: 29:04 part24 (asmbly).ldr
+0 Name: 03 rear 29:04 part24 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 28:27 part22 (asmbly).ldr
-1 7 -38 9 46 -0 0 -1 0.999999 0 -0 0 -0.999999 0 28:48 part23.ldr
-1 7 -138 9 46 -0 0 -0.999999 0.999999 0 -0 -0 -1 -0 28:48 part23 (reflection).ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 28:27 part22 (asmbly).ldr
+1 7 -38 9 46 -0 0 -1 0.999999 0 -0 0 -0.999999 0 03 rear 28:48 part23.ldr
+1 7 -138 9 46 -0 0 -0.999999 0.999999 0 -0 -0 -1 -0 03 rear 28:48 part23 (reflection).ldr
 0 STEP
 1 15 -27 17 -25 0.999999 0 0 0 0 -0.999999 -0 0.999999 0 6636.dat
 0 STEP
 0 NOFILE
-0 FILE 29:42 part25.ldr
+0 FILE 03 rear 29:42 part25.ldr
 0 untitled model
-0 Name: 29:42 part25.ldr
+0 Name: 03 rear 29:42 part25.ldr
 0 Author: Andrew Walker
 1 15 -15 0 -28 1 0 0 0 1 0 -0 0 1 3710.dat
 1 15 -15 0 22 1 0 0 0 1 0 -0 0 1 3020.dat
@@ -339,9 +339,9 @@
 1 15 -45 0 -18 0 -0 -0.999999 -0 1 -0 0.999999 0 0 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 30:18 part26.ldr
+0 FILE 03 rear 30:18 part26.ldr
 0 untitled model
-0 Name: 30:18 part26.ldr
+0 Name: 03 rear 30:18 part26.ldr
 0 Author: Andrew Walker
 1 15 -32 0 -8 1 0 0 0 1 0 -0 0 1 87087.dat
 1 7 -32 -24 -8 1 0 0 0 1 0 -0 0 1 3024.dat
@@ -360,17 +360,17 @@
 1 15 -32 -8 18 -0 -0 1 -0.999999 -0 -0 0 -1 -0 3710.dat
 0 STEP
 0 NOFILE
-0 FILE 30:57 part27 (asmbly).ldr
+0 FILE 03 rear 30:57 part27 (asmbly).ldr
 0 untitled model
-0 Name: 30:57 part27 (asmbly).ldr
+0 Name: 03 rear 30:57 part27 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 29:42 part25.ldr
-1 15 -35 -24 0 1 0 0 0 1 0 -0 0 1 30:18 part26.ldr
-1 15 67 -24 0 1 0 0 0 1 0 -0 0 1 30:18 part26.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 29:42 part25.ldr
+1 15 -35 -24 0 1 0 0 0 1 0 -0 0 1 03 rear 30:18 part26.ldr
+1 15 67 -24 0 1 0 0 0 1 0 -0 0 1 03 rear 30:18 part26.ldr
 0 NOFILE
-0 FILE 31:29 part28.ldr
+0 FILE 03 rear 31:29 part28.ldr
 0 untitled model
-0 Name: 31:29 part28.ldr
+0 Name: 03 rear 31:29 part28.ldr
 0 Author: Andrew Walker
 1 8 26 0 -14 1 0 0 0 1 0 -0 0 1 32000.dat
 1 14 26 0 6 1 0 0 0 1 0 -0 0 1 52107.dat
@@ -386,44 +386,44 @@
 1 7 26 0 64 1 0 -0 0 -0 1 -0 -1 -0 3068b.dat
 0 STEP
 0 NOFILE
-0 FILE 32:27 part29 (asmbly).ldr
+0 FILE 03 rear 32:27 part29 (asmbly).ldr
 0 untitled model
-0 Name: 32:27 part29 (asmbly).ldr
+0 Name: 03 rear 32:27 part29 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 29:04 part24 (asmbly).ldr
-1 7 -75 6 71 -1 -0 0 -0 0 -0.999999 0 -1 -0 21:35 part10 (asmbly).ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 29:04 part24 (asmbly).ldr
+1 7 -75 6 71 -1 -0 0 -0 0 -0.999999 0 -1 -0 03 rear 21:35 part10 (asmbly).ldr
 0 STEP
-1 15 -42 35 12 -1 0 0 -0 -1 -0 0 0 1 30:57 part27 (asmbly).ldr
+1 15 -42 35 12 -1 0 0 -0 -1 -0 0 0 1 03 rear 30:57 part27 (asmbly).ldr
 0 STEP
-1 15 -1 -53 58 -1 0 -0 0 1 0 0 0 -1 31:29 part28.ldr
+1 15 -1 -53 58 -1 0 -0 0 1 0 0 0 -1 03 rear 31:29 part28.ldr
 0 STEP
 0 NOFILE
-0 FILE 34:21 part30 (asmbly).ldr
+0 FILE 03 rear 34:21 part30 (asmbly).ldr
 0 untitled model
-0 Name: 34:21 part30 (asmbly).ldr
+0 Name: 03 rear 34:21 part30 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 32:27 part29 (asmbly).ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 32:27 part29 (asmbly).ldr
 1 7 38 42 78 0 -1 -0 -0 0 1 -1 0 0 30413.dat
 1 7 -90 41 78 0 0.999999 0 -0 0 0.999999 0.999999 -0 -0 30413.dat
 0 NOFILE
-0 FILE 34:46 part31.ldr
+0 FILE 03 rear 34:46 part31.ldr
 0 untitled model
-0 Name: 34:46 part31.ldr
+0 Name: 03 rear 34:46 part31.ldr
 0 Author: Andrew Walker
 1 7 0 0 -10 1 0 0 0 1 0 -0 0 1 4460b.dat
 1 7 0 0 10 -1 -0 -0 -0 1 -0 0 -0 -1 4460b.dat
 1 4 0 0 0 0 -0 -0.999999 -0 1 -0 0.999999 0 0 85984.dat
 0 NOFILE
-0 FILE 34:54 part32 (asmbly).ldr
+0 FILE 03 rear 34:54 part32 (asmbly).ldr
 0 untitled model
-0 Name: 34:54 part32 (asmbly).ldr
+0 Name: 03 rear 34:54 part32 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 0 0 0 1 0 0 0 1 0 -0 0 1 34:21 part30 (asmbly).ldr
-1 4 -27 53 5 -0 0 0.999999 0.999999 -0 0 0 0.999999 -0 34:46 part31.ldr
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 34:21 part30 (asmbly).ldr
+1 4 -27 53 5 -0 0 0.999999 0.999999 -0 0 0 0.999999 -0 03 rear 34:46 part31.ldr
 0 NOFILE
-0 FILE 35:05 part33.ldr
+0 FILE 03 rear 35:05 part33.ldr
 0 untitled model
-0 Name: 35:05 part33.ldr
+0 Name: 03 rear 35:05 part33.ldr
 0 Author: Andrew Walker
 1 15 0 25 65 1 0 0 0 1 0 -0 0 1 4460b.dat
 1 15 0 -47 86 1 0 0 0 1 0 -0 0 1 4460b.dat
@@ -431,27 +431,27 @@
 1 15 0 97 55 -0 0 1 0 1 0 -1 0 -0 3023.dat
 1 15 0 105 55 -0 0 1 -0 1 0 -1 -0 -0 4275a.dat
 0 NOFILE
-0 FILE 35:23 part34.ldr
+0 FILE 03 rear 35:23 part34.ldr
 0 untitled model
-0 Name: 35:23 part34.ldr
+0 Name: 03 rear 35:23 part34.ldr
 0 Author: Andrew Walker
 1 15 20 8 0 1 0 0 0 1 0 -0 0 1 4276a.dat
 1 15 -60 8 0 1 0 0 0 1 0 -0 0 1 3666.dat
 1 15 0 0 0 1 0 0 0 1 0 -0 0 1 6636.dat
 1 15 -90 0 0 1 0 0 0 1 0 -0 0 1 63864.dat
 0 NOFILE
-0 FILE 35:26 part35 (asmbly).ldr
+0 FILE 03 rear 35:26 part35 (asmbly).ldr
 0 untitled model
-0 Name: 35:26 part35 (asmbly).ldr
+0 Name: 03 rear 35:26 part35 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 35:05 part33.ldr
-1 15 0 57 27 -0 0 1 0.961261 0.275637 0 -0.275637 0.961261 -0 35:23 part34.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 35:05 part33.ldr
+1 15 0 57 27 -0 0 1 0.961261 0.275637 0 -0.275637 0.961261 -0 03 rear 35:23 part34.ldr
 0 NOFILE
-0 FILE 35:47 part36 (asmbly).ldr
+0 FILE 03 rear 35:47 part36 (asmbly).ldr
 0 untitled model
-0 Name: 35:47 part36 (asmbly).ldr
+0 Name: 03 rear 35:47 part36 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 34:54 part32 (asmbly).ldr
-1 15 24 127 151 -1 -0 0 0 -0 -1 0 -0.999999 0 35:26 part35 (asmbly).ldr
-1 15 -76 126 151 -1 -0 0 0 -0 -1 0 -0.999999 0 35:26 part35 (asmbly).ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 03 rear 34:54 part32 (asmbly).ldr
+1 15 24 127 151 -1 -0 0 0 -0 -1 0 -0.999999 0 03 rear 35:26 part35 (asmbly).ldr
+1 15 -76 126 151 -1 -0 0 0 -0 -1 0 -0.999999 0 03 rear 35:26 part35 (asmbly).ldr
 0 NOFILE

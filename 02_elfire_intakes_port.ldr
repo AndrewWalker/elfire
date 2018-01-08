@@ -1,6 +1,6 @@
-0 FILE 7:27 part1.ldr
+0 FILE 02 intakes 7:27 part1.ldr
 0 untitled model
-0 Name: 7:27 part1.ldr
+0 Name: 02 intakes 7:27 part1.ldr
 0 Author: Andrew Walker
 1 7 -1 -15 1 1 0 0 0 1 0 -0 0 1 3021.dat
 1 7 9 -23 -9 0 0 -1 0 1 0 1 0 -0 3021.dat
@@ -26,9 +26,9 @@
 1 7 19 -71 11 -0 0 -0.999999 -0 1 0 0.999999 0 -0 2420.dat
 0 STEP
 0 NOFILE
-0 FILE 9:00 part2.ldr
+0 FILE 02 intakes 9:00 part2.ldr
 0 untitled model
-0 Name: 9:00 part2.ldr
+0 Name: 02 intakes 9:00 part2.ldr
 0 Author: Andrew Walker
 1 7 -80 -88 0 1 0 0 0 1 0 -0 0 1 11211.dat
 1 7 -90 -96 0 1 0 0 0 1 0 -0 0 1 3024.dat
@@ -38,19 +38,19 @@
 1 27 -50 -88 0 1 0 0 0 1 0 -0 0 1 3040b.dat
 1 7 -60 -144 0 1 0 0 0 1 0 -0 0 1 3069b.dat
 0 NOFILE
-0 FILE 9:30 part3 (asmbly).ldr
+0 FILE 02 intakes 9:30 part3 (asmbly).ldr
 0 untitled model
-0 Name: 9:30 part3 (asmbly).ldr
+0 Name: 02 intakes 9:30 part3 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 7:27 part1.ldr
-1 8 33 21 -9 0 1 -0 1 0 0 0 -0 -0.999999 9:00 part2.ldr
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 02 intakes 7:27 part1.ldr
+1 8 33 21 -9 0 1 -0 1 0 0 0 -0 -0.999999 02 intakes 9:00 part2.ldr
 0 STEP
 1 7 -45 -79 9 0 0 1 -1 0 0 -0 -0.999999 0 3710.dat
 0 STEP
 0 NOFILE
-0 FILE 10:00 part4.ldr
+0 FILE 02 intakes 10:00 part4.ldr
 0 untitled model
-0 Name: 10:00 part4.ldr
+0 Name: 02 intakes 10:00 part4.ldr
 0 Author: Andrew Walker
 1 4 -26 -109 16 -1 0 0 0 1 0 0 0 -1 99207.dat
 1 7 -36 -117 16 0 0 1 0 1 0 -1 0 0 2420.dat
@@ -70,19 +70,19 @@
 1 7 -26 -151 62 -1 -0 0 -0 0 -1 0 -1 -0 3023.dat
 0 STEP
 0 NOFILE
-0 FILE 10:56 part5 (asmbly).ldr
+0 FILE 02 intakes 10:56 part5 (asmbly).ldr
 0 untitled model
-0 Name: 10:56 part5 (asmbly).ldr
+0 Name: 02 intakes 10:56 part5 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 9:30 part3 (asmbly).ldr
-1 7 15 22 47 -0 0 -1 0 1 0 1 -0 -0 10:00 part4.ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 02 intakes 9:30 part3 (asmbly).ldr
+1 7 15 22 47 -0 0 -1 0 1 0 1 -0 -0 02 intakes 10:00 part4.ldr
 0 STEP
 1 8 -39 -59 31 -0 0.999999 -0 -0.999999 -0 0 0 0 0.999999 2431.dat
 0 STEP
 0 NOFILE
-0 FILE 11:47 part6.ldr
+0 FILE 02 intakes 11:47 part6.ldr
 0 engine intake
-0 Name: 11:47 part6.ldr
+0 Name: 02 intakes 11:47 part6.ldr
 0 Author: Andrew Walker
 1 8 -38 5 22 1 0 0 0 1 0 -0 0 1 3021.dat
 1 8 -28 -3 12 1 0 0 0 1 0 -0 0 1 3069b.dat
@@ -108,16 +108,16 @@
 1 15 32 -41 52 0 -0.999999 0 -0.999999 0 0 0 0 -1 44676.dat
 0 STEP
 0 NOFILE
-0 FILE 13:22 part7 (asmbly).ldr
+0 FILE 02 intakes 13:22 part7 (asmbly).ldr
 0 untitled model
-0 Name: 13:22 part7 (asmbly).ldr
+0 Name: 02 intakes 13:22 part7 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 10:56 part5 (asmbly).ldr
-1 8 -101 -87 14 0 0 0.999999 -1 0 -0 0 -1 0 11:47 part6.ldr
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 02 intakes 10:56 part5 (asmbly).ldr
+1 8 -101 -87 14 0 0 0.999999 -1 0 -0 0 -1 0 02 intakes 11:47 part6.ldr
 0 NOFILE
-0 FILE 13:49 part8.ldr
+0 FILE 02 intakes 13:49 part8.ldr
 0 intake cowling
-0 Name: 13:49 part8.ldr
+0 Name: 02 intakes 13:49 part8.ldr
 0 Author: Andrew Walker
 1 7 -2 -35 0 1 0 0 0 1 0 -0 0 1 43719.dat
 1 7 -2 -43 0 1 0 0 0 1 0 -0 0 1 43719.dat
@@ -130,16 +130,16 @@
 1 8 -1 -43 -10 1 0 0 0 1 0 -0 0 1 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 14:20 part9 (asmbly).ldr
+0 FILE 02 intakes 14:20 part9 (asmbly).ldr
 0 untitled model
-0 Name: 14:20 part9 (asmbly).ldr
+0 Name: 02 intakes 14:20 part9 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 1 0 0 0 1 0 -0 0 1 13:22 part7 (asmbly).ldr
-1 8 -28 -139 44 0 0.999999 -0 0 -0 0.999999 0.999999 -0 0 13:49 part8.ldr
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 02 intakes 13:22 part7 (asmbly).ldr
+1 8 -28 -139 44 0 0.999999 -0 0 -0 0.999999 0.999999 -0 0 02 intakes 13:49 part8.ldr
 0 NOFILE
-0 FILE 14:56 part10.ldr
+0 FILE 02 intakes 14:56 part10.ldr
 0 untitled model
-0 Name: 14:56 part10.ldr
+0 Name: 02 intakes 14:56 part10.ldr
 0 Author: Andrew Walker
 1 4 0 -117 20 1 0 0 0 1 0 -0 0 1 99207.dat
 1 8 0 -129 -2 1 0 0 0 -0 -1 0 1 -0 3022.dat
@@ -167,10 +167,10 @@
 1 15 -21 -153 -30 0.999999 0 0 0 0.999999 0 0 0 0.999999 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 16:32 part11 (asmbly).ldr
+0 FILE 02 intakes 16:32 part11 (asmbly).ldr
 0 untitled model
-0 Name: 16:32 part11 (asmbly).ldr
+0 Name: 02 intakes 16:32 part11 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 14:20 part9 (asmbly).ldr
-1 15 9 -37 -64 0.999999 0 -0 0 0 0.999999 0 -0.999999 0 14:56 part10.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 02 intakes 14:20 part9 (asmbly).ldr
+1 15 9 -37 -64 0.999999 0 -0 0 0 0.999999 0 -0.999999 0 02 intakes 14:56 part10.ldr
 0 NOFILE
