@@ -1,7 +1,40 @@
-0 FILE 04 wings 36:14 part1a.ldr
+0 FILE 04 wings 36:14 part1 (asmbly).ldr
 0 starts at 36:14
-0 Name: 04 wings 36:14 part1a.ldr
+0 Name: 04 wings 36:14 part1 (asmbly).ldr
 0 Author: Andrew Walker
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 37:10 part1a.ldr
+0 STEP
+1 4 0 -152 0 0 0 0.999999 0 0.999999 -0 -0.999999 0 -0 3581.dat
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 37:10 part1b.ldr
+0 STEP
+1 4 0 -144 -40 1 0 0 0 1 0 0 0 1 2449.dat
+0 STEP
+1 4 10 -160 -10 1 0 0 0 1 0 0 0 1 04 wings 37:35 part2.ldr
+0 STEP
+1 4 0 -186 -6 0.999999 -0 0 0 -0 0.999999 -0 -0.999999 -0 04 wings 38:48 part3.ldr
+0 STEP
+0 NOFILE
+0 FILE 04 wings 36:14 part1 (asmbly reflection).ldr
+0 starts at 36:14
+0 Name: 04 wings 36:14 part1 (asmbly reflection).ldr
+0 Author: Andrew Walker
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 37:10 part1a.ldr
+0 STEP
+1 4 0 -152 0 0 0 -0.999999 0 0.999999 0 0.999999 0 0 3581.dat
+1 4 0 0 -40 -1 0 0 0 1 0 0 0 -1 04 wings 37:10 part1b.ldr
+0 STEP
+1 4 0 -144 -40 1 0 0 0 1 0 0 0 1 2449.dat
+0 STEP
+1 4 10 -160 -10 1 0 0 0 1 0 0 0 1 04 wings 37:35 part2 (reflection).ldr
+0 STEP
+1 4 0 -186 -6 0.999999 -0 0 0 -0 0.999999 -0 -0.999999 -0 04 wings 38:48 part3.ldr
+0 STEP
+0 NOFILE
+0 FILE 04 wings 37:10 part1a.ldr
+0 untitled model
+0 Name: 04 wings 37:10 part1a.ldr
+0 Author: Andrew Walker
+0 STEP
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 2449.dat
 1 4 0 -72 -20 1 0 0 0 1 0 0 0 1 2449.dat
 1 4 0 -24 0 -1 0 0 0 1 0 0 0 -1 4070.dat
@@ -14,15 +47,6 @@
 0 STEP
 1 4 0 -80 -10 -0 -0 -1 -0 0.999999 -0 0.999999 0 -0 3023.dat
 1 4 0 -104 0 -1 -0 0 -0 1 -0 0 -0 -1 87087.dat
-1 4 0 -152 0 0 0 0.999999 0 0.999999 -0 -0.999999 0 -0 3581.dat
-0 STEP
-1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 37:10 part1b.ldr
-0 STEP
-1 4 0 -144 -40 1 0 0 0 1 0 0 0 1 2449.dat
-0 STEP
-1 4 10 -160 -10 1 0 0 0 1 0 0 0 1 04 wings 37:35 part2.ldr
-0 STEP
-1 4 0 -186 -6 0.999999 -0 0 0 -0 0.999999 -0 -0.999999 -0 04 wings 38:48 part3.ldr
 0 STEP
 0 NOFILE
 0 FILE 04 wings 37:10 part1b.ldr
@@ -44,6 +68,24 @@
 1 4 -10 -8 -10 -0 0 1 0 1 0 -1 0 0 2420.dat
 1 4 0 -8 10 1 0 0 0 1 0 -0 0 1 3023.dat
 1 4 10 -16 0 -0 0 1 0 1 0 -1 0 -0 3023.dat
+1 4 -10 0 -30 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
+1 4 -10 8 -30 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
+0 STEP
+1 4 -10 -16 0 -0 0 1 -0 1 0 -1 -0 0 3069a.dat
+1 4 -10 -32 -30 -0 0 1 -0 1 0 -1 -0 0 3005.dat
+1 4 -10 -56 -30 -1 -0 -0 -0 1 0 0 0 -1 47905.dat
+1 4 -10 -56 -50 1 0 0 0 1 0 0 0 1 2449.dat
+1 4 -10 -64 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 NOFILE
+0 FILE 04 wings 37:35 part2 (reflection).ldr
+0 part2
+0 Name: 04 wings 37:35 part2 (reflection).ldr
+0 Author: Andrew Walker
+1 4 -20 0 0 1 0 0 0 1 0 -0 0 1 3022.dat
+1 4 -10 -8 -10 -1 0 0 0 1 0 0 0 -1 2420.dat
+1 4 -20 -8 10 1 0 0 0 1 0 -0 0 1 3023.dat
+1 4 -30 -16 0 -0 0 1 0 1 0 -1 0 -0 3023.dat
 1 4 -10 0 -30 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
 1 4 -10 8 -30 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
 0 STEP
@@ -153,7 +195,7 @@
 0 untitled model
 0 Name: 04 wings 42:13 part8 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 36:14 part1a.ldr
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 36:14 part1 (asmbly).ldr
 1 4 0 182 83 1 0 0 0 1 0 -0 0 1 04 wings 39:44 part4 (asmbly).ldr
 1 15 0 -32 -71 0 -0 1 -1 -0 0 0 -0.999999 -0 04 wings 42:40 part9.ldr
 0 NOFILE
@@ -280,20 +322,20 @@
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 04 wings 43:41 part10.ldr
 1 7 39 -213 -167 -1 0 0 0 -0.707107 -0.707106 0 -0.707106 0.707107 04 wings 48:18 part14 (asmbly).ldr
 0 NOFILE
-0 FILE wingamblybig.ldr
-0 untitled model
-0 Name: wingamblybig.ldr
+0 FILE 04 wings 49:33 part16 (asmbly).ldr
+0 bracket joins main wing body
+0 Name: 04 wings 49:33 part16 (asmbly).ldr
 0 Author: Andrew Walker
 1 7 15 -362 -53 -1 0 0 -0 -0.707106 -0.707106 -0 -0.707106 0.707106 04 wings 49:00 part15 (asmbly).ldr
 1 7 0 0 0 -1 0 -0 0 1 0 0 0 -1 04 wings 42:13 part8 (asmbly).ldr
-1 4 -63 -17 39 -0 0 -1 0 1 0 1 0 -0 wingtrimwhite.ldr
-1 4 22 141 -199 -0 0 1 -0.999999 -0 -0 0 -1 -0 whitestripedge.ldr
+1 4 -63 -17 39 -0 0 -1 0 1 0 1 0 -0 04 wings 49:48 part17.ldr
+1 4 22 141 -199 -0 0 1 -0.999999 -0 -0 0 -1 -0 04 wings 51:32 part18.ldr
 1 4 0 -177 90 -0 0 -1 0.965926 -0.258819 -0 -0.258819 -0.965926 0 85984.dat
 1 4 -222 -84 33 0 0 0.999999 0 1 0 -0.999999 -0 0 wingtip.ldr
 0 NOFILE
-0 FILE wingtrimwhite.ldr
-0 untitled model
-0 Name: wingtrimwhite.ldr
+0 FILE 04 wings 49:48 part17.ldr
+0 finger hinge to join white strip to wing
+0 Name: 04 wings 49:48 part17.ldr
 0 Author: Andrew Walker
 1 4 0 -207 -62 0.999999 0 0 0 1 0 -0 0 0.999999 2420.dat
 1 4 0 -215 -62 1 0 0 0 1 0 -0 0 1 3024.dat
@@ -309,9 +351,9 @@
 1 4 9.999996 -223 -62.000015 0.999999 -0 0 0 1 0 -0 -0 0.999999 3069b.dat
 0 STEP
 0 NOFILE
-0 FILE whitestripedge.ldr
-0 untitled model
-0 Name: whitestripedge.ldr
+0 FILE 04 wings 51:32 part18.ldr
+0 white stripe edge
+0 Name: 04 wings 51:32 part18.ldr
 0 Author: Andrew Walker
 1 15 56 -181 -20 0 1 0 -1 0 0 0 0 1 4276b.dat
 1 15 87.425064 -222.388367 -19.999992 -0.965926 0.258819 -0 0.258819 0.965926 -0 0 0 -1 4275b.dat
@@ -469,6 +511,6 @@
 0 untitled model
 0 Name: wing_both.ldr
 0 Author: Andrew Walker
-1 8 248 0 51 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 wingamblybig.ldr
+1 8 248 0 51 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 04 wings 49:33 part16 (asmbly).ldr
 1 8 80.30014 -211.998535 -110.736214 0.001182 -0.727094 0.686535 0.998409 0.039547 0.040165 -0.056354 0.685396 0.725985 small_wing_bracket.ldr
 0 NOFILE
