@@ -1,6 +1,6 @@
-0 FILE 1:25:46 part1.ldr
+0 FILE 07 misc 1:25:46 part1.ldr
 0 untitled model
-0 Name: 1:25:46 part1.ldr
+0 Name: 07 misc 1:25:46 part1.ldr
 0 Author: Andrew Walker
 1 7 0 8 0 -1 -0 0 -0 1 -0 0 -0 -1 99780.dat
 1 7 0 6 14 1 0 0 0 0 1 0 -1 0 85984.dat
@@ -8,44 +8,44 @@
 1 7 -24 10 0 -0 1 -0 0 -0 -0.999999 -0.999999 -0 -0 54200.dat
 1 27 -10 8 -40 0 0 -0.999999 0 0.999999 -0 0.999999 -0 0 2420.dat
 0 NOFILE
-0 FILE 1:26:14 part2.ldr
+0 FILE 07 misc 1:26:14 part2.ldr
 0 untitled model
-0 Name: 1:26:14 part2.ldr
+0 Name: 07 misc 1:26:14 part2.ldr
 0 Author: Andrew Walker
 1 15 30 0 -20.000008 0 0 -0.999999 0 1 0 0.999999 0 0 2420.dat
 1 15 30.000004 0 -10 0 0 -0.999999 0 1 0 0.999999 0 0 85984.dat
 1 7 10 -8 -10 -0 0 1 0 1 0 -1 0 -0 3023.dat
 1 15 0 -16 -10 -0 0 1 0 1 0 -1 0 -0 3068b.dat
 0 NOFILE
-0 FILE 1:26:34 part3 (asmbly).ldr
+0 FILE 07 misc 1:26:34 part3 (asmbly).ldr
 0 untitled model
-0 Name: 1:26:34 part3 (asmbly).ldr
+0 Name: 07 misc 1:26:34 part3 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:25:46 part1.ldr
-1 15 0 8 0 1 0 0 0 1 0 -0 0 1 1:26:14 part2.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07 misc 1:25:46 part1.ldr
+1 15 0 8 0 1 0 0 0 1 0 -0 0 1 07 misc 1:26:14 part2.ldr
 0 NOFILE
-0 FILE 1:26:44 part4.ldr
+0 FILE 07 misc 1:26:44 part4.ldr
 0 untitled model
-0 Name: 1:26:44 part4.ldr
+0 Name: 07 misc 1:26:44 part4.ldr
 0 Author: Andrew Walker
 1 15 0 0 0 -1 0 0 0 1 0 0 0 -1 2420.dat
 1 15 0 0 -10 -0 0 -1 -0 1 0 1 0 -0 85984.dat
 1 15 -40 -8 0 -1 -0 0 -0 1 -0 0 -0 -1 3623.dat
 1 15 -30 -16 -10 -1 -0 0 -0 1 -0 0 -0 -1 3068b.dat
 0 NOFILE
-0 FILE 1:27:00 part5 (asmbly).ldr
+0 FILE 07 misc 1:27:00 part5 (asmbly).ldr
 0 untitled model
-0 Name: 1:27:00 part5 (asmbly).ldr
+0 Name: 07 misc 1:27:00 part5 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:26:34 part3 (asmbly).ldr
-1 15 30 8 -40 1 0 0 0 1 0 -0 0 1 1:26:44 part4.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07 misc 1:26:34 part3 (asmbly).ldr
+1 15 30 8 -40 1 0 0 0 1 0 -0 0 1 07 misc 1:26:44 part4.ldr
 0 STEP
 1 15 -30 -8 -30 0 0 1 0 1 0 -1 0 0 2431.dat
 0 STEP
 0 NOFILE
-0 FILE 1:27:45 part6.ldr
+0 FILE 07 misc 1:27:45 part6.ldr
 0 untitled model
-0 Name: 1:27:45 part6.ldr
+0 Name: 07 misc 1:27:45 part6.ldr
 0 Author: Andrew Walker
 1 7 0 16 20 1 0 0 0 1 0 -0 0 1 3021.dat
 1 7 -30 8 20 1 0 0 0 1 0 -0 0 1 3022.dat
@@ -62,9 +62,9 @@
 1 7 -50 0 20 -0 0 1 -0 1 0 -1 -0 -0 3068b.dat
 0 STEP
 0 NOFILE
-0 FILE 1:28:16 part7.ldr
+0 FILE 07 misc 1:28:16 part7.ldr
 0 untitled model
-0 Name: 1:28:16 part7.ldr
+0 Name: 07 misc 1:28:16 part7.ldr
 0 Author: Andrew Walker
 1 7 0 16 0 1 0 0 0 1 0 -0 0 1 3795.dat
 1 7 -40 16 -10 1 0 0 0 1 0 -0 0 1 85984.dat
@@ -74,9 +74,9 @@
 1 7 20 8 10 1 0 0 0 1 0 -0 0 1 3069b.dat
 1 7 -10 0 10 1 0 0 0 1 0 -0 0 1 3070a.dat
 0 NOFILE
-0 FILE 1:28:16 part7 (reflection).ldr
+0 FILE 07 misc 1:28:16 part7 (reflection).ldr
 0 untitled model
-0 Name: 1:28:16 part7 (reflection).ldr
+0 Name: 07 misc 1:28:16 part7 (reflection).ldr
 0 Author: Andrew Walker
 1 7 0 16 0 1 0 0 0 1 0 -0 0 1 3795.dat
 1 7 -40 16 -10 1 0 0 0 1 0 -0 0 1 85984.dat
@@ -86,41 +86,41 @@
 1 7 -20 8 10 1 0 0 0 1 0 -0 0 1 3069b.dat
 1 7 10 0 10 1 0 0 0 1 0 -0 0 1 3070a.dat
 0 NOFILE
-0 FILE 1:28:26 part8 (asmbly).ldr
+0 FILE 07 misc 1:28:26 part8 (asmbly).ldr
 0 untitled model
-0 Name: 1:28:26 part8 (asmbly).ldr
+0 Name: 07 misc 1:28:26 part8 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 8 0 -1 0 0 0 1 0 0 0 -1 1:27:45 part6.ldr
-1 7 -70 8 -60 1 0 0 0 1 0 -0 0 1 1:28:16 part7.ldr
-1 7 -70 8 20 -1 0 0 0 1 0 0 0 -1 1:28:16 part7 (reflection).ldr
+1 7 0 8 0 -1 0 0 0 1 0 0 0 -1 07 misc 1:27:45 part6.ldr
+1 7 -70 8 -60 1 0 0 0 1 0 -0 0 1 07 misc 1:28:16 part7.ldr
+1 7 -70 8 20 -1 0 0 0 1 0 0 0 -1 07 misc 1:28:16 part7 (reflection).ldr
 0 STEP
-1 7 30 0 -60 0 0 1 0 1 0 -1 0 0 1:28:40 part9.ldr
-1 7 30 0 0 -0 0 1 -0 1 0 -1 -0 -0 1:28:40 part9 (reflection).ldr
+1 7 30 0 -60 0 0 1 0 1 0 -1 0 0 07 misc 1:28:40 part9.ldr
+1 7 30 0 0 -0 0 1 -0 1 0 -1 -0 -0 07 misc 1:28:40 part9 (reflection).ldr
 0 STEP
-1 7 -140 24 -20 -0 0 1 -0 1 0 -1 -0 -0 1:28:58 part10.ldr
+1 7 -140 24 -20 -0 0 1 -0 1 0 -1 -0 -0 07 misc 1:28:58 part10.ldr
 0 STEP
-1 7 78 22 -20 0 -1 0 0 0 1 -1 0 0 1:29:34 part11a.ldr
+1 7 78 22 -20 0 -1 0 0 0 1 -1 0 0 07 misc 1:29:34 part11a.ldr
 0 STEP
 0 NOFILE
-0 FILE 1:28:40 part9.ldr
+0 FILE 07 misc 1:28:40 part9.ldr
 0 untitled model
-0 Name: 1:28:40 part9.ldr
+0 Name: 07 misc 1:28:40 part9.ldr
 0 Author: Andrew Walker
 1 7 0 24 0 -1 0 0 0 1 0 0 0 -1 41769.dat
 1 7 -10 24 -10 0 -0 -1 -0 1 -0 1 0 0 54200.dat
 1 7 -10 24 20 0 -0 -1 -0 1 -0 1 0 0 85984.dat
 0 NOFILE
-0 FILE 1:28:40 part9 (reflection).ldr
+0 FILE 07 misc 1:28:40 part9 (reflection).ldr
 0 untitled model
-0 Name: 1:28:40 part9 (reflection).ldr
+0 Name: 07 misc 1:28:40 part9 (reflection).ldr
 0 Author: Andrew Walker
 1 7 -10 24 -10 0 0 1 -0 1 -0 -1 -0 0 54200.dat
 1 7 -10 24 20 0 0 1 -0 1 -0 -1 -0 0 85984.dat
 1 7 -20 24 0 -1 -0 0 -0 1 -0 0 -0 -1 41770.dat
 0 NOFILE
-0 FILE 1:28:58 part10.ldr
+0 FILE 07 misc 1:28:58 part10.ldr
 0 untitled model
-0 Name: 1:28:58 part10.ldr
+0 Name: 07 misc 1:28:58 part10.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 3023.dat
 1 8 -30 -8 0 0 0 1 0 1 0 -1 0 0 2420.dat
@@ -135,22 +135,22 @@
 1 7 -50 0 -10 -0 0 1 0 1 0 -1 0 -0 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 1:29:34 part11a.ldr
+0 FILE 07 misc 1:29:34 part11a.ldr
 0 front guns
-0 Name: 1:29:34 part11a.ldr
+0 Name: 07 misc 1:29:34 part11a.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3623.dat
 1 7 0 -8 0 1 0 0 0 1 0 -0 0 1 3024.dat
 1 7 0 -16 0 1 0 0 0 1 0 -0 0 1 3024.dat
 1 7 0 -16 0 1 0 0 0 1 0 -0 0 1 54200.dat
 0 STEP
-1 7 -20 -24 0 0 0 -1 0 1 0 1 0 0 1:29:34 part11b.ldr
-1 7 20 -24 0 0 0 -1 0 1 0 1 0 0 1:29:34 part11b.ldr
+1 7 -20 -24 0 0 0 -1 0 1 0 1 0 0 07 misc 1:29:34 part11b.ldr
+1 7 20 -24 0 0 0 -1 0 1 0 1 0 0 07 misc 1:29:34 part11b.ldr
 0 STEP
 0 NOFILE
-0 FILE 1:29:34 part11b.ldr
+0 FILE 07 misc 1:29:34 part11b.ldr
 0 untitled model
-0 Name: 1:29:34 part11b.ldr
+0 Name: 07 misc 1:29:34 part11b.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3062b.dat
 1 7 0 -42 0 0 -0 -1 -1 0 0 0 1 -0 61184.dat
@@ -159,9 +159,9 @@
 1 0 0 -70 0 0 -0 -1 0 -0.999999 0 -0.999999 -0 0 6141.dat
 1 8 0 -60 0 -0 -0 -1 -0 1 -0 0.999999 0 -0 18654.dat
 0 NOFILE
-0 FILE 1:31:03 part12.ldr
+0 FILE 07 misc 1:31:03 part12.ldr
 0 untitled model
-0 Name: 1:31:03 part12.ldr
+0 Name: 07 misc 1:31:03 part12.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 92593.dat
 1 7 30 -24 0 1 0 0 0 1 0 -0 0 1 43710.dat
@@ -169,9 +169,9 @@
 1 7 30 0 -30 0 0 1 0 1 0 -1 0 0 3023.dat
 1 7 -30 0 -30 0 0 1 0 1 0 -1 0 0 3023.dat
 0 NOFILE
-0 FILE 1:31:19 part13.ldr
+0 FILE 07 misc 1:31:19 part13.ldr
 0 untitled model
-0 Name: 1:31:19 part13.ldr
+0 Name: 07 misc 1:31:19 part13.ldr
 0 Author: Andrew Walker
 1 8 0 0 -30 1 0 0 0 1 0 -0 0 1 85984.dat
 1 8 0 -8 -10 1 0 0 0 1 0 -0 0 1 3023.dat
@@ -181,9 +181,9 @@
 1 8 -10 -16 10 -1 0 -0 0 1 0 0 0 -1 60477.dat
 1 8 10 -16 10 -1 0 -0 0 1 0 0 0 -1 60477.dat
 0 NOFILE
-0 FILE 1:31:35 part14.ldr
+0 FILE 07 misc 1:31:35 part14.ldr
 0 untitled model
-0 Name: 1:31:35 part14.ldr
+0 Name: 07 misc 1:31:35 part14.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3009.dat
 1 7 -40 0 0 1 0 0 0 1 0 -0 0 1 85984.dat
@@ -196,9 +196,9 @@
 1 7 88 20 0 0 -1 0 1 0 -0 0 0 1 3023.dat
 1 7 96 20 0 -0 -1 0 1 -0 -0 0 0 1 3069b.dat
 0 NOFILE
-0 FILE 1:31:58 part15.ldr
+0 FILE 07 misc 1:31:58 part15.ldr
 0 untitled model
-0 Name: 1:31:58 part15.ldr
+0 Name: 07 misc 1:31:58 part15.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 87079.dat
 1 8 -50 0 0 -0 0 1 0 1 0 -1 0 -0 3069b.dat
