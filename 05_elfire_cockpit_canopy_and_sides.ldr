@@ -1,147 +1,6 @@
-0 FILE 1:03:01 part1.ldr
+0 FILE 05 canopy 1:07:46 part14.ldr
 0 untitled model
-0 Name: 1:03:01 part1.ldr
-0 Author: Andrew Walker
-1 7 0 0 -30 1 0 0 0 1 0 -0 0 1 99206.dat
-1 8 0 0 -10 1 0 0 0 1 0 -0 0 1 3023.dat
-1 7 -10 -8 -20 0 0 1 0 1 0 -1 0 0 3023.dat
-1 8 10 -8 0 0 0 1 0 1 0 -1 0 0 3710.dat
-1 8 10 0 30 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
-0 STEP
-1 7 10 -24 0 0 0 -1 0 1 0 1 0 0 99206.dat
-1 7 10 -32 -10 -0 0 -1 -0 1 0 1 0 -0 3024.dat
-1 7 10 -32 -10 0 0 1 0 1 0 -1 0 0 54200.dat
-0 STEP
-0 NOFILE
-0 FILE 1:03:31 part2.ldr
-0 untitled model
-0 Name: 1:03:31 part2.ldr
-0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3005.dat
-1 7 0 -8 20 0 0 1 0 1 0 -1 0 0 3623.dat
-1 7 0 -16 10 -0 0 1 -0 1 0 -1 -0 -0 3023.dat
-1 15 0 -24 10 -0 0 1 -0 1 0 -1 -0 -0 48336.dat
-0 NOFILE
-0 FILE 1:03:36 part3 (asmbly).ldr
-0 untitled model
-0 Name: 1:03:36 part3 (asmbly).ldr
-0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:03:01 part1.ldr
-1 15 30 -8 -30 0 0 -1 0 1 0 1 0 0 1:03:31 part2.ldr
-0 NOFILE
-0 FILE 1:03:52 part4.ldr
-0 untitled model
-0 Name: 1:03:52 part4.ldr
-0 Author: Andrew Walker
-1 4 0 0 -20 1 0 0 0 1 0 -0 0 1 2420.dat
-1 4 0 -8 0 -0 0 1 -0 1 0 -1 -0 -0 3623.dat
-1 4 0 -16 30 -0 0 1 -0 1 0 -1 -0 -0 3710.dat
-1 7 0 -24 60 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
-1 4 0 -24 20 -0 0 1 -0 1 0 -1 -0 -0 63864.dat
-1 7 0 -32 60 -0 0 1 -0 1 0 -1 -0 -0 3070b.dat
-0 NOFILE
-0 FILE 1:04:08 part5.ldr
-0 untitled model
-0 Name: 1:04:08 part5.ldr
-0 Author: Andrew Walker
-1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3623.dat
-1 15 -10 -8 0 -0 0 1 -0 1 0 -1 -0 -0 92946.dat
-1 15 -10 -8 -20 -0 0 1 -0 1 0 -1 -0 -0 92946.dat
-1 15 0 -16 -20 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
-1 15 -20 0 -20 -0 0 1 -0 1 0 -1 -0 -0 6141.dat
-0 NOFILE
-0 FILE 1:04:36 part6.ldr
-0 untitled model
-0 Name: 1:04:36 part6.ldr
-0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 2420.dat
-1 15 0 0 20 0 0 -1 0 1 0 1 0 0 54200.dat
-0 NOFILE
-0 FILE 1:04:26 part7 (asmbly).ldr
-0 untitled model
-0 Name: 1:04:26 part7 (asmbly).ldr
-0 Author: Andrew Walker
-1 15 -20 -8 40 1 0 0 0 1 0 -0 0 1 1:03:52 part4.ldr
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:04:08 part5.ldr
-0 STEP
-1 15 0 -16 20 0 0 1 0 1 0 -1 0 0 1:04:36 part6.ldr
-0 STEP
-1 4 -10 -16 20 1 0 0 0 1 0 -0 0 1 85984.dat
-0 STEP
-1 15 0 -24 -10 0 0 1 0 1 0 -1 0 0 2412a.dat
-0 STEP
-0 NOFILE
-0 FILE 1:05:06 part8 (asmbly).ldr
-0 untitled model
-0 Name: 1:05:06 part8 (asmbly).ldr
-0 Author: Andrew Walker
-1 15 10 16 0 0 0 -1 0 1 0 1 0 0 1:03:36 part3 (asmbly).ldr
-1 15 -20 0 -10 1 0 0 0 1 0 -0 0 1 1:04:26 part7 (asmbly).ldr
-0 NOFILE
-0 FILE 1:05:28 part9.ldr
-0 untitled model
-0 Name: 1:05:28 part9.ldr
-0 Author: Andrew Walker
-1 15 0 16 50 1 0 0 0 1 0 -0 0 1 43711.dat
-1 15 0 40 60 1 0 0 0 1 0 -0 0 1 3021.dat
-1 15 -10 32 70 1 0 0 0 1 0 -0 0 1 3069b.dat
-1 0 20 32 50 1 0 0 0 1 0 -0 0 1 6141.dat
-1 15 0 8 50 1 0 0 0 1 0 -0 0 1 98138.dat
-1 0 20 24 50 1 0 0 0 1 0 -0 0 1 6141.dat
-0 NOFILE
-0 FILE 1:05:46 part10 (asmbly).ldr
-0 untitled model
-0 Name: 1:05:46 part10 (asmbly).ldr
-0 Author: Andrew Walker
-1 0 0 0 0 0 0 1 0 1 0 -1 0 0 1:05:06 part8 (asmbly).ldr
-1 0 20 -40 60 0 0 1 0 1 0 -1 0 0 1:05:28 part9.ldr
-0 NOFILE
-0 FILE 1:06:10 part11.ldr
-0 untitled model
-0 Name: 1:06:10 part11.ldr
-0 Author: Andrew Walker
-1 4 0 0 20 1 0 0 0 1 0 -0 0 1 3023.dat
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 3023.dat
-1 7 0 0 -20 1 0 0 0 1 0 -0 0 1 3023.dat
-0 STEP
-1 4 10 -8 20 -1 0 0 0 1 0 0 0 -1 2420.dat
-1 7 0 -8 -20 1 0 0 0 1 0 -0 0 1 3023.dat
-0 STEP
-1 7 10 -16 -20 0 0 -1 0 1 0 1 0 0 2420.dat
-1 4 0 -16 20 -1 -0 0 -0 1 -0 0 -0 -1 3023.dat
-0 STEP
-1 7 10 -24 0 0 0 1 0 1 0 -1 0 0 63864.dat
-1 7 -10 -24 -20 -0 0 1 -0 1 0 -1 -0 -0 3070b.dat
-1 4 -10 -24 20 -0 0 1 -0 1 0 -1 -0 -0 3070b.dat
-0 STEP
-0 NOFILE
-0 FILE 1:06:38 part12.ldr
-0 top tile offset exactly half a plate
-0 Name: 1:06:38 part12.ldr
-0 Author: Andrew Walker
-1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
-1 15 0 -24 -10 -0 0 1 -0 1 0 -1 -0 -0 6541.dat
-1 7 0 -8 10 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
-1 7 0 -16 10 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
-1 15 -10 -14 -10 0 -1 0 -0 0 1 -1 0 -0 3005.dat
-1 4 0 -24 10 -0 0 1 -0 1 0 -1 -0 -0 3070b.dat
-0 STEP
-1 8 0 -32 -4 -0 0 1 -0 1 0 -1 -0 -0 3069b.dat
-0 STEP
-0 NOFILE
-0 FILE 1:07:22 part13 (asmbly).ldr
-0 untitled model
-0 Name: 1:07:22 part13 (asmbly).ldr
-0 Author: Andrew Walker
-1 15 27.897207 2.780862 0 -0 -1 0 1 -0 0 0 0 1 1:06:10 part11.ldr
-1 15 61.897202 6.780857 10 1 0 0 0 0.999999 0 0 0 1 1:06:38 part12.ldr
-0 STEP
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:05:46 part10 (asmbly).ldr
-0 STEP
-0 NOFILE
-0 FILE 1:07:46 part14.ldr
-0 untitled model
-0 Name: 1:07:46 part14.ldr
+0 Name: 05 canopy 1:07:46 part14.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 -0 0 1 -0 1 0 -1 -0 -0 3020.dat
 1 7 10 0 -50 -0 0 1 -0 1 0 -1 -0 -0 3024.dat
@@ -164,9 +23,9 @@
 1 7 10 -8 40 0 0 -1 0 1 0 1 0 0 85984.dat
 0 STEP
 0 NOFILE
-0 FILE 1:08:54 part15.ldr
+0 FILE 05 canopy 1:08:54 part15.ldr
 0 untitled model
-0 Name: 1:08:54 part15.ldr
+0 Name: 05 canopy 1:08:54 part15.ldr
 0 Author: Andrew Walker
 1 15 0 0 0 -1 0 0 0 1 0 0 0 -1 43719.dat
 1 4 0 -8 10 0 -0 -1 -0 1 -0 1 0 0 3021.dat
@@ -175,48 +34,48 @@
 1 4 10 -8 20 -0 -0 -1 -0 1 -0 1 -0 -0 85984.dat
 1 4 10 -8 -10 -0 -0 -1 -0 1 -0 1 -0 -0 54200.dat
 0 NOFILE
-0 FILE 1:09:20 part16 (asmbly).ldr
+0 FILE 05 canopy 1:09:20 part16 (asmbly).ldr
 0 untitled model
-0 Name: 1:09:20 part16 (asmbly).ldr
+0 Name: 05 canopy 1:09:20 part16 (asmbly).ldr
 0 Author: Andrew Walker
-1 4 0 0 0 1 0 0 0 1 0 -0 0 1 1:07:46 part14.ldr
-1 4 -60 0 0 -1 0 0 0 1 0 0 0 -1 1:08:54 part15.ldr
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:07:46 part14.ldr
+1 4 -60 0 0 -1 0 0 0 1 0 0 0 -1 05 canopy 1:08:54 part15.ldr
 0 STEP
 1 4 -50 -24 -10 0 -0 -1 -0 1 -0 1 0 0 63864.dat
 0 STEP
 0 NOFILE
-0 FILE 1:09:36 part17.ldr
+0 FILE 05 canopy 1:09:36 part17.ldr
 0 untitled model
-0 Name: 1:09:36 part17.ldr
+0 Name: 05 canopy 1:09:36 part17.ldr
 0 Author: Andrew Walker
 1 15 0 0 0 -0 0 1 -0 1 0 -1 -0 -0 63864.dat
 1 7 0 8 20 -1 0 -0 0 1 0 0 0 -1 87087.dat
 1 15 0 20 30 -1 -0 -0 0 -0 -1 0 -1 0 61409.dat
 0 NOFILE
-0 FILE 1:09:59 part18 (asmbly).ldr
+0 FILE 05 canopy 1:09:59 part18 (asmbly).ldr
 0 untitled model
-0 Name: 1:09:59 part18 (asmbly).ldr
+0 Name: 05 canopy 1:09:59 part18 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:09:20 part16 (asmbly).ldr
-1 15 -30 -24 -10 -1 0 -0 0 1 0 0 0 -1 1:09:36 part17.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:09:20 part16 (asmbly).ldr
+1 15 -30 -24 -10 -1 0 -0 0 1 0 0 0 -1 05 canopy 1:09:36 part17.ldr
 0 NOFILE
-0 FILE 1:10:10 part19.ldr
+0 FILE 05 canopy 1:10:10 part19.ldr
 0 untitled model
-0 Name: 1:10:10 part19.ldr
+0 Name: 05 canopy 1:10:10 part19.ldr
 0 Author: Andrew Walker
 1 4 0 0 0 1 0 0 0 1 0 -0 0 1 43711.dat
 1 15 -10 24 -40 1 0 0 0 1 0 -0 0 1 6564.dat
 0 NOFILE
-0 FILE 1:10:22 part20 (asmbly).ldr
+0 FILE 05 canopy 1:10:22 part20 (asmbly).ldr
 0 untitled model
-0 Name: 1:10:22 part20 (asmbly).ldr
+0 Name: 05 canopy 1:10:22 part20 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 1:09:59 part18 (asmbly).ldr
-1 15 -50 -24 -50 1 0 0 0 1 0 -0 0 1 1:10:10 part19.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:09:59 part18 (asmbly).ldr
+1 15 -50 -24 -50 1 0 0 0 1 0 -0 0 1 05 canopy 1:10:10 part19.ldr
 0 NOFILE
-0 FILE 1:10:44 part21.ldr
+0 FILE 05 canopy 1:10:44 part21.ldr
 0 untitled model
-0 Name: 1:10:44 part21.ldr
+0 Name: 05 canopy 1:10:44 part21.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3022.dat
 1 8 -10 -8 -10 0 0 1 0 1 0 -1 0 0 2420.dat
@@ -229,37 +88,37 @@
 1 7 10 -16 -30 0 -0 -1 -0 1 -0 1 0 0 87087.dat
 0 STEP
 0 NOFILE
-0 FILE 1:11:12 part22.ldr
+0 FILE 05 canopy 1:11:12 part22.ldr
 0 untitled model
-0 Name: 1:11:12 part22.ldr
+0 Name: 05 canopy 1:11:12 part22.ldr
 0 Author: Andrew Walker
 1 8 0 -16 10 0 0 1 0 1 0 -1 0 0 92593.dat
 1 7 0 -40 -20 -0 0 1 -0 1 0 -1 -0 -0 6541.dat
 1 7 0 -40 40 -0 0 1 -0 1 0 -1 -0 -0 6541.dat
 1 7 10 -30 10 0 1 0 0 0 -1 -1 0 -0 3710.dat
 0 NOFILE
-0 FILE 1:11:40 part23.ldr
+0 FILE 05 canopy 1:11:40 part23.ldr
 0 untitled model
-0 Name: 1:11:40 part23.ldr
+0 Name: 05 canopy 1:11:40 part23.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 -0 0 1 -0 1 0 -1 -0 -0 3023.dat
 1 8 0 -8 20 -0 0 1 -0 1 0 -1 -0 -0 3710.dat
 1 8 0 -16 20 -0 0 1 -0 1 0 -1 -0 -0 3069b.dat
 0 NOFILE
-0 FILE 1:11:32 part24 (asmbly).ldr
+0 FILE 05 canopy 1:11:32 part24 (asmbly).ldr
 0 untitled model
-0 Name: 1:11:32 part24 (asmbly).ldr
+0 Name: 05 canopy 1:11:32 part24 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 1:10:44 part21.ldr
-1 7 30 24 -10 1 0 0 0 1 0 -0 0 1 1:11:12 part22.ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:10:44 part21.ldr
+1 7 30 24 -10 1 0 0 0 1 0 -0 0 1 05 canopy 1:11:12 part22.ldr
 0 STEP
-1 8 20 -24 30 0 0 1 0 1 0 -1 0 0 1:11:40 part23.ldr
-1 8 20 -24 -30 0 0 1 0 1 0 -1 0 0 1:11:40 part23.ldr
+1 8 20 -24 30 0 0 1 0 1 0 -1 0 0 05 canopy 1:11:40 part23.ldr
+1 8 20 -24 -30 0 0 1 0 1 0 -1 0 0 05 canopy 1:11:40 part23.ldr
 0 STEP
 0 NOFILE
-0 FILE 1:12:00 part25.ldr
+0 FILE 05 canopy 1:12:00 part25.ldr
 0 untitled model
-0 Name: 1:12:00 part25.ldr
+0 Name: 05 canopy 1:12:00 part25.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 -0 0 1 -0 1 0 -1 -0 -0 3020.dat
 1 7 0 8 30 -1 0 -0 0 1 0 0 0 -1 6134.dat
@@ -270,39 +129,39 @@
 1 8 0 -16 -10 -1 -0 -0 -0 1 -0 0 -0 -1 3023.dat
 0 STEP
 0 NOFILE
-0 FILE 1:12:00 part25b.ldr
+0 FILE 05 canopy 1:12:00 part25b.ldr
 0 untitled model
-0 Name: 1:12:00 part25b.ldr
+0 Name: 05 canopy 1:12:00 part25b.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 -0 1 0 -0 0 1 3937.dat
 1 7 0 24 0 1 0 0 0 1 0 0 0 1 3023.dat
 1 7 0 32 0 1 0 0 0 1 0 0 0 1 3023.dat
 0 NOFILE
-0 FILE 1:12:27 part26 (asmbly).ldr
+0 FILE 05 canopy 1:12:27 part26 (asmbly).ldr
 0 untitled model
-0 Name: 1:12:27 part26 (asmbly).ldr
+0 Name: 05 canopy 1:12:27 part26 (asmbly).ldr
 0 Author: Andrew Walker
-1 8 0 0 0 0 0 1 0 1 0 -1 0 0 1:11:32 part24 (asmbly).ldr
-1 8 0 -16 20 1 0 0 0 1 0 -0 0 1 1:12:00 part25.ldr
+1 8 0 0 0 0 0 1 0 1 0 -1 0 0 05 canopy 1:11:32 part24 (asmbly).ldr
+1 8 0 -16 20 1 0 0 0 1 0 -0 0 1 05 canopy 1:12:00 part25.ldr
 0 NOFILE
-0 FILE 1:12:54 part27.ldr
+0 FILE 05 canopy 1:12:54 part27.ldr
 0 untitled model
-0 Name: 1:12:54 part27.ldr
+0 Name: 05 canopy 1:12:54 part27.ldr
 0 Author: Andrew Walker
 1 7 0 -40 -30 1 0 0 0 1 0 -0 0 1 4032a.dat
 1 7 0 -64 -30 1 0 0 0 1 0 -0 0 1 92947.dat
 1 7 0 -72 -30 1 0 0 0 1 0 -0 0 1 4150.dat
 0 NOFILE
-0 FILE 1:12:58 part28 (asmbly).ldr
+0 FILE 05 canopy 1:12:58 part28 (asmbly).ldr
 0 untitled model
-0 Name: 1:12:58 part28 (asmbly).ldr
+0 Name: 05 canopy 1:12:58 part28 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 0 0 1 1:12:27 part26 (asmbly).ldr
-1 7 0 -66 12 1 0 0 0 -0 -1 0 1 -0 1:12:54 part27.ldr
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 05 canopy 1:12:27 part26 (asmbly).ldr
+1 7 0 -66 12 1 0 0 0 -0 -1 0 1 -0 05 canopy 1:12:54 part27.ldr
 0 NOFILE
-0 FILE 1:13:12 part29.ldr
+0 FILE 05 canopy 1:13:12 part29.ldr
 0 the stack of plates 1x2 is to improve clutch
-0 Name: 1:13:12 part29.ldr
+0 Name: 05 canopy 1:13:12 part29.ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 99207.dat
 1 15 10 -12.239998 -13.760004 1 0 0 0 -0 -1 0 1 -0 61409.dat
@@ -317,18 +176,18 @@
 1 7 -10 -24 10 0 0 1 0 1 0 -1 0 0 3023.dat
 0 STEP
 0 NOFILE
-0 FILE 1:13:31 part30 (asmbly).ldr
+0 FILE 05 canopy 1:13:31 part30 (asmbly).ldr
 0 untitled model
-0 Name: 1:13:31 part30 (asmbly).ldr
+0 Name: 05 canopy 1:13:31 part30 (asmbly).ldr
 0 Author: Andrew Walker
-1 7 0 1 -1 1 0 0 0 1 0 -0 0 1 1:12:58 part28 (asmbly).ldr
-1 7 0 -23 49 -1 0 0 0 1 0 0 0 -1 1:13:12 part29.ldr
+1 7 0 1 -1 1 0 0 0 1 0 -0 0 1 05 canopy 1:12:58 part28 (asmbly).ldr
+1 7 0 -23 49 -1 0 0 0 1 0 0 0 -1 05 canopy 1:13:12 part29.ldr
 0 NOFILE
-0 FILE 1:13:31 part30 (finishing).ldr
+0 FILE 05 canopy 1:13:31 part30 (finishing).ldr
 0 untitled model
-0 Name: 1:13:31 part30 (finishing).ldr
+0 Name: 05 canopy 1:13:31 part30 (finishing).ldr
 0 Author: Andrew Walker
-1 7 0 0 0 0.999999 0 -0 -0 1 -0 0 0 0.999999 1:13:31 part30 (asmbly).ldr
+1 7 0 0 0 0.999999 0 -0 -0 1 -0 0 0 0.999999 05 canopy 1:13:31 part30 (asmbly).ldr
 0 STEP
 1 7 30 -31 9 -0.999999 -0 -0 -0 1 -0 0 -0 -0.999999 87087.dat
 1 7 -30 -31 9 -0.999999 -0 -0 -0 1 -0 0 -0 -0.999999 87087.dat
@@ -346,9 +205,9 @@
 1 7 0 -55 19 0 -0 -1 -0 1 -0 1 0 0 87079.dat
 0 STEP
 0 NOFILE
-0 FILE 1:15:15 part31.ldr
+0 FILE 05 canopy 1:15:15 part31.ldr
 0 untitled model
-0 Name: 1:15:15 part31.ldr
+0 Name: 05 canopy 1:15:15 part31.ldr
 0 Author: Andrew Walker
 1 8 10 0 0 -1 -0 -0 -0 1 -0 0 -0 -1 4070.dat
 1 8 -10 0 0 -1 -0 -0 -0 1 -0 0 -0 -1 4070.dat
@@ -358,9 +217,9 @@
 1 7 -10 -24 0 -0 0 1 -0 1 -0 -1 -0 -0 87087.dat
 1 7 0 -12 24 -1 0 -0 0 1 0 0 0 -1 3023.dat
 0 NOFILE
-0 FILE 1:15:45 part32.ldr
+0 FILE 05 canopy 1:15:45 part32.ldr
 0 untitled model
-0 Name: 1:15:45 part32.ldr
+0 Name: 05 canopy 1:15:45 part32.ldr
 0 Author: Andrew Walker
 1 7 0 -13 10 -0 0 1 0.999999 0 0 0 1 0 3020.dat
 1 7 -10 17 2 -0 0 1 0.999999 0 0 0 1 -0 63864.dat
@@ -370,21 +229,21 @@
 1 40 -10 -23 -134 -0.999999 0 0 0 0 1 0 1 -0 54200.dat
 1 40 10 -23 -134 -0.999999 0 0 0 0 1 0 1 -0 54200.dat
 0 NOFILE
-0 FILE 1:16:16 part33 (asmbly).ldr
+0 FILE 05 canopy 1:16:16 part33 (asmbly).ldr
 0 untitled model
-0 Name: 1:16:16 part33 (asmbly).ldr
+0 Name: 05 canopy 1:16:16 part33 (asmbly).ldr
 0 Author: Andrew Walker
-1 40 0 0 0 1 0 0 0 1 0 -0 0 1 1:15:45 part32.ldr
-1 40 0 61 22 1 0 0 0 0 -1 0 1 0 1:15:15 part31.ldr
+1 40 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:15:45 part32.ldr
+1 40 0 61 22 1 0 0 0 0 -1 0 1 0 05 canopy 1:15:15 part31.ldr
 0 STEP
-1 8 0 -1 32 -1 0 -0 0 1 0 0 0 -1 1:12:00 part25b.ldr
+1 8 0 -1 32 -1 0 -0 0 1 0 0 0 -1 05 canopy 1:12:00 part25b.ldr
 0 STEP
-1 7 0 19 80 -1 -0 0 -0 0.965926 -0.258819 0 -0.258819 -0.965926 1:13:31 part30 (asmbly).ldr
+1 7 0 19 80 -1 -0 0 -0 0.965926 -0.258819 0 -0.258819 -0.965926 05 canopy 1:13:31 part30 (asmbly).ldr
 0 STEP
 0 NOFILE
-0 FILE 1:16:54 part34.ldr
+0 FILE 05 canopy 1:16:54 part34.ldr
 0 untitled model
-0 Name: 1:16:54 part34.ldr
+0 Name: 05 canopy 1:16:54 part34.ldr
 0 Author: Andrew Walker
 1 7 0 -24 -40 0 0 1 0 1 0 -1 0 0 3623.dat
 1 7 10 -32 -20 -1 0 -0 0 1 0 0 0 -1 3710.dat
@@ -400,9 +259,9 @@
 1 15 40 -24 24 0.999999 0 0 -0 1 -0 -0 0 0.999999 3024.dat
 0 STEP
 0 NOFILE
-0 FILE 1:16:54 part34 (reflection).ldr
+0 FILE 05 canopy 1:16:54 part34 (reflection).ldr
 0 untitled model
-0 Name: 1:16:54 part34 (reflection).ldr
+0 Name: 05 canopy 1:16:54 part34 (reflection).ldr
 0 Author: Andrew Walker
 1 7 17 -24 -34 0 0 1 0 1 0 -1 0 0 3623.dat
 1 7 7 -32 -14 -1 0 -0 0 1 0 0 0 -1 3710.dat
@@ -418,55 +277,55 @@
 1 15 -23 -24 30 0.999999 0 0 -0 1 -0 -0 0 0.999999 3024.dat
 0 STEP
 0 NOFILE
-0 FILE 1:17:48 part35.ldr
+0 FILE 05 canopy 1:17:48 part35.ldr
 0 untitled model
-0 Name: 1:17:48 part35.ldr
+0 Name: 05 canopy 1:17:48 part35.ldr
 0 Author: Andrew Walker
 1 272 30 -38 10 1 0 0 0 -0 1 0 -1 0 3937.dat
 1 272 30 -48 0 1 0 0 0 1 0 -0 0 1 3938.dat
 1 15 50 -72 0 1 0 0 0 1 0 -0 0 1 3937.dat
 1 15 10 -72 0 1 0 0 0 1 0 -0 0 1 3937.dat
 1 15 0 -48 0 -1 -0 0 -0 1 -0 0 -0 -1 3024.dat
-1 40 60 -62 -1 -1 -0 -0 -0 0.681998 0.731354 0 0.731354 -0.681998 1:17:48 part35b.ldr
+1 40 60 -62 -1 -1 -0 -0 -0 0.681998 0.731354 0 0.731354 -0.681998 05 canopy 1:17:48 part35b.ldr
 0 NOFILE
-0 FILE 1:17:48 part35 (reflection).ldr
+0 FILE 05 canopy 1:17:48 part35 (reflection).ldr
 0 untitled model
-0 Name: 1:17:48 part35 (reflection).ldr
+0 Name: 05 canopy 1:17:48 part35 (reflection).ldr
 0 Author: Andrew Walker
 1 272 30 -38 10 1 0 0 0 -0 1 0 -1 0 3937.dat
 1 272 30 -48 0 1 0 0 0 1 0 -0 0 1 3938.dat
 1 15 50 -72 0 1 0 0 0 1 0 -0 0 1 3937.dat
 1 15 10 -72 0 1 0 0 0 1 0 -0 0 1 3937.dat
 1 15 60 -48 0 -1 -0 0 -0 1 -0 0 -0 -1 3024.dat
-1 40 60 -62 -1 -1 -0 -0 -0 0.681998 0.731354 0 0.731354 -0.681998 1:17:48 part35b.ldr
+1 40 60 -62 -1 -1 -0 -0 -0 0.681998 0.731354 0 0.731354 -0.681998 05 canopy 1:17:48 part35b.ldr
 0 NOFILE
-0 FILE 1:17:48 part35b.ldr
+0 FILE 05 canopy 1:17:48 part35b.ldr
 0 untitled model
-0 Name: 1:17:48 part35b.ldr
+0 Name: 05 canopy 1:17:48 part35b.ldr
 0 Author: Andrew Walker
 1 15 10 -9 0 -1 -0 0 -0 1 -0 0 -0 -1 3938.dat
 1 15 50 -9 0 -1 -0 0 -0 1 -0 0 -0 -1 3938.dat
 1 40 30 -33 0 -1 -0 0 -0 1 -0 0 -0 -1 30413.dat
 0 NOFILE
-0 FILE 1:18:07 part36 (asmbly).ldr
+0 FILE 05 canopy 1:18:07 part36 (asmbly).ldr
 0 untitled model
-0 Name: 1:18:07 part36 (asmbly).ldr
+0 Name: 05 canopy 1:18:07 part36 (asmbly).ldr
 0 Author: Andrew Walker
-1 40 0 0 0 1 0 0 0 1 0 -0 0 1 1:16:54 part34.ldr
-1 40 0 -38 -38 -0.999999 -0 -0 -0 -0 -1 0 -0.999999 -0 1:17:48 part35.ldr
+1 40 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:16:54 part34.ldr
+1 40 0 -38 -38 -0.999999 -0 -0 -0 -0 -1 0 -0.999999 -0 05 canopy 1:17:48 part35.ldr
 0 NOFILE
-0 FILE 1:18:07 part36 (asmbly reflection).ldr
+0 FILE 05 canopy 1:18:07 part36 (asmbly reflection).ldr
 0 untitled model
-0 Name: 1:18:07 part36 (asmbly reflection).ldr
+0 Name: 05 canopy 1:18:07 part36 (asmbly reflection).ldr
 0 Author: Andrew Walker
-1 40 0 -39 -38 -0.999999 -0 -0 -0 0.999999 -0 0 -0 -0.999999 1:16:54 part34 (reflection).ldr
-1 40 -77 -77 -6 0.999999 0 0 0 -0 -1 -0 0.999999 -0 1:17:48 part35 (reflection).ldr
+1 40 0 -39 -38 -0.999999 -0 -0 -0 0.999999 -0 0 -0 -0.999999 05 canopy 1:16:54 part34 (reflection).ldr
+1 40 -77 -77 -6 0.999999 0 0 0 -0 -1 -0 0.999999 -0 05 canopy 1:17:48 part35 (reflection).ldr
 0 NOFILE
-0 FILE 1:18:16 part37 (asmbly).ldr
+0 FILE 05 canopy 1:18:16 part37 (asmbly).ldr
 0 untitled model
-0 Name: 1:18:16 part37 (asmbly).ldr
+0 Name: 05 canopy 1:18:16 part37 (asmbly).ldr
 0 Author: Andrew Walker
-1 40 0 0 0 1 0 0 0 1 0 -0 0 1 1:16:16 part33 (asmbly).ldr
-1 40 4 1 8 0 -0.999999 0 0 -0 -1 0.999999 0 -0 1:18:07 part36 (asmbly).ldr
-1 40 35 45 25 -0 1 0 -0 0 0.999999 0.999999 -0 0 1:18:07 part36 (asmbly reflection).ldr
+1 40 0 0 0 1 0 0 0 1 0 -0 0 1 05 canopy 1:16:16 part33 (asmbly).ldr
+1 40 4 1 8 0 -0.999999 0 0 -0 -1 0.999999 0 -0 05 canopy 1:18:07 part36 (asmbly).ldr
+1 40 35 45 25 -0 1 0 -0 0 0.999999 0.999999 -0 0 05 canopy 1:18:07 part36 (asmbly reflection).ldr
 0 NOFILE

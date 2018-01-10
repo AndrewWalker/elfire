@@ -1,3 +1,9 @@
+0 FILE 06 frame.ldr
+0 untitled model
+0 Name: 06 frame.ldr
+0 Author: Andrew Walker
+1 47 0 0 0 1 0 0 0 1 0 -0 0 1 06 frame 1:25:28 part16 (asmbly).ldr
+0 NOFILE
 0 FILE 06 frame 1:18:56 part1.ldr
 0 untitled model
 0 Name: 06 frame 1:18:56 part1.ldr
@@ -41,7 +47,7 @@
 0 STEP
 1 7 0 0 150 -1 0 -0 0 1 0 0 0 -1 3710.dat
 1 7 0 -8 150 -1 0 -0 0 1 0 0 0 -1 3710.dat
-1 7 0 -32 150 0.999999 0 0 -0 1 -0 -0 0 0.999999 11211.dat
+1 7 0 -32 150 -0.999999 0 0 0 1 0 0 0 -0.999999 11211.dat
 1 7 -30 -32 140 -0 0 0.999999 -0 1 -0 -0.999999 -0 -0 11211.dat
 1 7 30 -32 140 0 -0 -0.999999 -0 1 -0 0.999999 0 0 11211.dat
 0 STEP

@@ -1,3 +1,9 @@
+0 FILE 01 nose.ldr
+0 untitled model
+0 Name: 01 nose.ldr
+0 Author: Andrew Walker
+1 47 0 0 0 1 0 0 0 1 0 -0 0 1 01 nose 6:55 par12 (asmbly).ldr
+0 NOFILE
 0 FILE 01 nose 2:32 part1.ldr
 0 part1
 0 Name: 01 nose 2:32 part1.ldr
@@ -80,8 +86,8 @@
 0 Name: 01 nose 4:51 part6 (asmbly).ldr
 0 Author: Andrew Walker
 1 7 0 0 0 1 0 0 0 1 0 -0 0 1 01 nose 4:27 part4.ldr
-1 7 -104 0 -34 0.965925 0.258819 0 -0.258819 0.965925 0 0 0 1 01 nose 4:38 part5.ldr
-1 7 -14 0 -34 -0.965925 -0.258819 0 -0.258819 0.965925 0 0 0 -1 01 nose 4:38 part5.ldr
+1 7 -98 2 -34 0.93358 0.358368 0 -0.358368 0.93358 0 0 0 1 01 nose 4:38 part5.ldr
+1 7 -20 2 -34 -0.920504 -0.390731 0 -0.390731 0.920504 -0 0 -0 -1 01 nose 4:38 part5.ldr
 0 NOFILE
 0 FILE 01 nose 4:54 part7 (asmbly).ldr
 0 untitled model
