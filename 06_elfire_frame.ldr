@@ -150,7 +150,7 @@
 0 Name: 06 frame 1:23:59 part11 (asmbly).ldr
 0 Author: Andrew Walker
 1 25 0 0 0 1 0 0 0 1 0 -0 0 1 06 frame 1:23:33 part9 (asmbly).ldr
-1 25 1 -72 -70 1 0 0 0 1 0 -0 0 1 06 frame 1:23:43 part10.ldr
+1 25 0 -72 -70 1 0 0 0 1 0 -0 0 1 06 frame 1:23:43 part10.ldr
 0 NOFILE
 0 FILE 06 frame 1:24:18 part12a.ldr
 0 deviated from video to make modelling easier. Bricksmith not liking Euler angles near singularity

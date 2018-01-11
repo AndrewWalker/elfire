@@ -1,8 +1,20 @@
+0 FILE 08 assembly 1:33:00.ldr
 0 untitled model
-0 Name: 08 assembly.ldr
+0 Name: 08 assembly 1:33:00.ldr
 0 Author: Andrew Walker
 1 4 0 -2 136 1 0 0 0 0 1 0 -1 0 01_elfire_nose.ldr
 1 4 0 0 0 1 0 0 0 1 0 -0 0 1 06_elfire_frame.ldr
-1 4 -72 -42 100 0 1 0 0 0 -1 -1 0 0 05a_elfire_canopy_sides_port.ldr
-1 4 72 -122 100 0 -1 0 0 0 1 -1 0 0 05b_elfire_canopy_sides_starboard.ldr
-1 4 -72 -12 160 -0 1 -0 1 0 0 0 -0 -1 05c_elfire_canopy_sides_port.ldr
+0 STEP
+1 4 -52 -42 80 0 1 0 0 0 -1 -1 0 0 05a_elfire_canopy_sides_port.ldr
+1 4 52 -122 80 0 -1 0 0 0 1 -1 0 0 05b_elfire_canopy_sides_starboard.ldr
+0 STEP
+1 4 -48 -12 140 -0 1 -0 1 0 0 0 -0 -1 05c_elfire_canopy_sides_port.ldr
+1 4 48 -132 140 0 -1 0 -1 0 0 0 0 -1 05d_elfire_canopy_sides_starboard.ldr
+0 STEP
+0 NOFILE
+0 FILE untitled model copy.ldr
+0 untitled model
+0 Name: 
+0 Author: Andrew Walker
+
+0 NOFILE
