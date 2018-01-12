@@ -1,3 +1,9 @@
+0 FILE elfire.ldr
+0 untitled model
+0 Name: elfire.ldr
+0 Author: Andrew Walker
+
+0 NOFILE
 0 FILE 08 assembly 1:33:00 (asmbly).ldr
 0 untitled model
 0 Name: 08 assembly 1:33:00 (asmbly).ldr
@@ -34,4 +40,21 @@
 0 Author: Andrew Walker
 1 4 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:35:32 (asmbly).ldr
 1 7 -9 64 -80 1 0 0 0 1 0 -0 0 1 08 assembly 1:37:49.ldr
+0 STEP
+1 7 1 -98 30 -1 0 0 0 1 0 0 0 -1 05_elfire_canopy.ldr
+0 STEP
+0 NOFILE
+0 FILE 08 assembly 1:40:15.ldr
+0 attach tail
+0 Name: 08 assembly 1:40:15.ldr
+0 Author: Andrew Walker
+1 7 0 0 1 1 0 0 0 1 0 -0 0 1 untitled model.ldr
+1 7 -25 -65 -250 -1 0 0 0 -1 0 0 0 1 03_elfire_rear_section.ldr
+0 STEP
+1 8 -19 -136 -122 -0 0 1 0 1 0 -1 0 -0 92946.dat
+1 8 21 -136 -122 0 0 -0.999999 0 1 0 0.999999 0 0 92946.dat
+0 STEP
+1 8 1 -144 -122 0.999999 0 -0 0 1 0 0 0 0.999999 3023.dat
+1 8 1 -152 -122 0.999999 0 -0 0 1 0 0 0 0.999999 2412b.dat
+0 STEP
 0 NOFILE
