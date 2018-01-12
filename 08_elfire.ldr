@@ -1,6 +1,6 @@
-0 FILE 08 assembly 1:33:00.ldr
+0 FILE 08 assembly 1:33:00 (asmbly).ldr
 0 untitled model
-0 Name: 08 assembly 1:33:00.ldr
+0 Name: 08 assembly 1:33:00 (asmbly).ldr
 0 Author: Andrew Walker
 1 4 0 -2 136 1 0 0 0 0 1 0 -1 0 01_elfire_nose.ldr
 1 4 0 0 0 1 0 0 0 1 0 -0 0 1 06_elfire_frame.ldr
@@ -12,9 +12,26 @@
 1 4 48 -132 140 0 -1 0 -1 0 0 0 0 -1 05d_elfire_canopy_sides_starboard.ldr
 0 STEP
 0 NOFILE
-0 FILE untitled model copy.ldr
+0 FILE 08 assembly 1:35:32 (asmbly).ldr
+0 untitled model
+0 Name: 08 assembly 1:35:32 (asmbly).ldr
+0 Author: Andrew Walker
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:33:00 (asmbly).ldr
+1 4 -13 -11 -71 0 1 0 0 0 -1 -1 0 0 02_elfire_intakes_port.ldr
+1 4 13 -13 -71 0 -1 0 0 0 1 -1 0 0 02_elfire_intakes_starboard.ldr
+0 NOFILE
+0 FILE 08 assembly 1:37:49.ldr
+0 untitled model
+0 Name: 08 assembly 1:37:49.ldr
+0 Author: Andrew Walker
+1 25 9 -144 0 1 0 0 0 1 0 -0 0 1 87079.dat
+1 7 -21 -136 -10 1 0 0 0 1 0 -0 0 1 2420.dat
+1 7 39 -136 -10 0 0 -0.999999 0 1 0 0.999999 0 0 2420.dat
+0 NOFILE
+0 FILE untitled model.ldr
 0 untitled model
 0 Name: 
 0 Author: Andrew Walker
-
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:35:32 (asmbly).ldr
+1 7 -9 64 -80 1 0 0 0 1 0 -0 0 1 08 assembly 1:37:49.ldr
 0 NOFILE
