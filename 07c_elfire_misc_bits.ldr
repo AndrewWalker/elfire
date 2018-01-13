@@ -1,0 +1,58 @@
+0 FILE untitled model.ldr
+0 untitled model
+0 Name: 
+0 Author: Andrew Walker
+
+0 NOFILE
+0 FILE 07 misc 1:31:03 part12.ldr
+0 untitled model
+0 Name: 07 misc 1:31:03 part12.ldr
+0 Author: Andrew Walker
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 92593.dat
+1 7 30 -24 0 1 0 0 0 1 0 -0 0 1 43710.dat
+1 7 -30 -24 0 1 0 0 0 1 0 -0 0 1 43711.dat
+1 7 30 0 -30 0 0 1 0 1 0 -1 0 0 3023.dat
+1 7 -30 0 -30 0 0 1 0 1 0 -1 0 0 3023.dat
+0 NOFILE
+0 FILE 07 misc 1:31:19 part13.ldr
+0 untitled model
+0 Name: 07 misc 1:31:19 part13.ldr
+0 Author: Andrew Walker
+1 8 0 0 -30 1 0 0 0 1 0 -0 0 1 85984.dat
+1 8 0 -8 -10 1 0 0 0 1 0 -0 0 1 3023.dat
+1 8 0 -16 -10 1 0 0 0 1 0 -0 0 1 3069b.dat
+1 8 0 8 20 0 0 1 0 1 0 -1 0 0 3795.dat
+1 7 0 0 -20 1 0 0 0 1 0 -0 0 1 3022.dat
+1 8 -10 -16 10 -1 0 -0 0 1 0 0 0 -1 60477.dat
+1 8 10 -16 10 -1 0 -0 0 1 0 0 0 -1 60477.dat
+0 NOFILE
+0 FILE 07 misc 1:31:35 part14.ldr
+0 untitled model
+0 Name: 07 misc 1:31:35 part14.ldr
+0 Author: Andrew Walker
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 3009.dat
+1 7 -40 0 0 1 0 0 0 1 0 -0 0 1 85984.dat
+1 7 -10 0 0 1 0 0 0 1 0 -0 0 1 54200.dat
+1 7 20 0 0 1 0 0 0 1 0 -0 0 1 85984.dat
+1 7 60 0 0 1 0 0 0 1 0 -0 0 1 85984.dat
+1 7 70 0 0 0 0 -1 0 1 0 1 0 0 87087.dat
+1 7 60 24 0 1 0 -0 0 1 0 0 0 1 3023.dat
+1 7 60 32 0 1 0 -0 0 1 0 0 0 1 3023.dat
+1 7 88 20 0 0 -1 0 1 0 -0 0 0 1 3023.dat
+1 7 96 20 0 -0 -1 0 1 -0 -0 0 0 1 3069b.dat
+0 NOFILE
+0 FILE 07 misc 1:31:58 part15.ldr
+0 untitled model
+0 Name: 07 misc 1:31:58 part15.ldr
+0 Author: Andrew Walker
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 87079.dat
+1 8 -50 0 0 -0 0 1 0 1 0 -1 0 -0 3069b.dat
+1 8 -30 8 0 -1 -0 -0 -0 1 -0 0 -0 -1 3021.dat
+1 7 -30 16 0 -1 -0 -0 -0 1 -0 0 -0 -1 3021.dat
+1 7 -40 24 0 -1 -0 -0 -0 1 -0 0 -0 -1 3022.dat
+0 STEP
+1 7 10 16 0 0 0 -0.999999 0 1 0 0.999999 0 0 99206.dat
+1 7 10 8 0 -0 0 -0.999999 -0 1 0 0.999999 0 -0 2431.dat
+1 8 30 32 0 0 0 0.999999 0 -1 0 0.999999 0 -0 32000.dat
+0 STEP
+0 NOFILE
