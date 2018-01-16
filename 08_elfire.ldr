@@ -58,10 +58,17 @@
 1 8 1 -152 -122 0.999999 0 0 0 1 0 0 0 0.999999 3069b.dat
 0 STEP
 0 NOFILE
-0 FILE untitled model.ldr
+0 FILE 08 assembly 1:41:46.ldr
 0 untitled model
-0 Name: 
+0 Name: 08 assembly 1:41:46.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:40:15.ldr
 1 8 20 40 131 0 0 0.999999 0 -1 0 0.999999 0 0 07b_elfire_misc_bits.ldr
+0 NOFILE
+0 FILE untitled model copy.ldr
+0 untitled model
+0 Name: 
+0 Author: Andrew Walker
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:41:46.ldr
+1 8 17 -94 -220 0 1 0 1 0 0 -0 0 -1 04a_elfire_wings_port.ldr
 0 NOFILE
