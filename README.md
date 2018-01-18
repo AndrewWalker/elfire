@@ -3,7 +3,7 @@
 
 LEGO draw files for Nick Trotta's Elfire Interceptor. 
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)]
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 
 ![Elfire Image](https://c1.staticflickr.com/1/711/22273819138_2ff067f2fb.jpg)
 ![Elfire Model](_resources/elfire_model.png)
