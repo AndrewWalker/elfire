@@ -137,14 +137,33 @@
 0 Name: 08 assembly 1:42:39.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:41:46.ldr
+0 STEP
 1 8 17 -74 -220 0 1 0 1 0 0 -0 0 -1 04a_elfire_wings_port.ldr
-1 8 -17 -74 -138 0 -1 0 1 0 0 0 0 1 04b_elfire_wings_starboard.ldr
 1 15 -60 18 -99 0 1 0 0 0 -1 -1 0 0 07 misc 1:31:35 part14.ldr
+0 STEP
+1 8 -17 -74 -138 0 -1 0 1 0 0 0 0 1 04b_elfire_wings_starboard.ldr
 1 7 60 20 -99 0 -1 0 0 0 -1 1 0 0 07 misc 1:31:35 part14 (reflection).ldr
+0 STEP
 0 NOFILE
-0 FILE untitled model.ldr
+0 FILE 08 assembly 1:44:32.ldr
 0 untitled model
-0 Name: 
+0 Name: 08 assembly 1:44:32.ldr
 0 Author: Andrew Walker
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:42:39.ldr
+1 8 -96 8 -119 1 0 0 0 1 0 -0 0 1 4740.dat
+1 8 96 8 -119 1 0 0 0 1 0 -0 0 1 4740.dat
+0 STEP
+1 8 0 8 -205 -1 0 0 0 -1 0 0 0 1 07 misc 1:31:03 part12.ldr
+0 STEP
+1 8 0 24 -195 1 0 0 0 -1 0 0 0 -1 07 misc 1:31:19 part13.ldr
+0 STEP
+0 NOFILE
+0 FILE 08 assembly 1:45:23.ldr
+0 untitled model
+0 Name: 08 assembly 1:45:23.ldr
+0 Author: Andrew Walker
+1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:44:32.ldr
+1 8 -1 -152 -171 1 0 0 0 1 0 -0 0 1 47753.dat
+0 STEP
+0 STEP
 0 NOFILE
