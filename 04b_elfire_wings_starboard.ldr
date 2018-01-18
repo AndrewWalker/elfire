@@ -1,3 +1,11 @@
+0 FILE 04b wings combined.ldr
+0 untitled model
+0 Name: 04b wings combined.ldr
+0 Author: Andrew Walker
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 04b wings big.ldr
+1 7 65 -96 -80 0 0.999999 -0 0 0 1 0.999999 -0 -0 04b wings 55:25 part21 (asmbly).ldr
+1 7 0 -253 -14 0 -0 -0.999999 -0.965925 0.258819 -0 0.258819 0.965925 -0 04b wings 57:37 part24 (asmbly).ldr
+0 NOFILE
 0 FILE 04b wings 36:14 part1 (asmbly).ldr
 0 starts at 36:14
 0 Name: 04b wings 36:14 part1 (asmbly).ldr
@@ -432,7 +440,7 @@
 1 4 -157 -48 -24 -1 -0 -0 0 1 0 0 0 -1 04b wings 55:35 part22a.ldr
 1 4 0 -52 -47 -0 0.999999 -0 0 0 0.999999 0.999999 0 0 04b wings 56:48 part23.ldr
 0 STEP
-1 4 -128 -195 22 0 1 0 0.999999 0 0 0 0 -1 04b wings 58:04 part25.ldr
+1 4 -128 -194 21 0 1 0 0.999999 0 0 0 0 -1 04b wings 58:04 part25.ldr
 0 STEP
 1 4 -137 -165 30 0 1 0 0.999999 0 0 0 0 -1 04b wings 58:45 part26.ldr
 0 STEP
@@ -485,4 +493,11 @@
 1 4 -175 -10 0 0 0.999999 -0 -0.999999 0 0 0 -0 0.999999 3023.dat
 1 4 -183 -9.999997 -0.000002 0 0.999999 -0 -0.999999 0 0 0 -0 0.999999 3069b.dat
 0 STEP
+0 NOFILE
+0 FILE 04b wings big.ldr
+0 untitled model
+0 Name: 04b wings big.ldr
+0 Author: Andrew Walker
+1 4 37 -270 161 0.990268 0.112593 -0.081804 0 -0.587785 -0.809017 -0.139173 0.801144 -0.582065 04b wings 49:33 part16 (asmbly).ldr
+1 4 0 0 0 1 0 0 0 1 0 -0 0 1 04b wings 49:00 part15 (asmbly).ldr
 0 NOFILE
