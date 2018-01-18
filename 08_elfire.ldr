@@ -165,5 +165,9 @@
 1 8 0 0 0 1 0 0 0 1 0 -0 0 1 08 assembly 1:44:32.ldr
 1 8 -1 -152 -171 1 0 0 0 1 0 -0 0 1 47753.dat
 0 STEP
+1 8 -131 -88 -81 -1 0 0 0 1 0 0 0 -1 07a_elfire_misc_bits.ldr
+1 8 129 -88 -81 -1 0 0 0 1 0 0 0 -1 07b_elfire_misc_bits.ldr
+0 STEP
+1 8 0 40 41 0 0 -1 0 -1 0 -1 0 -0 07 misc 1:31:58 part15.ldr
 0 STEP
 0 NOFILE
