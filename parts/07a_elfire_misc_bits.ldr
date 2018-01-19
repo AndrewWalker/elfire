@@ -1,12 +1,12 @@
-0 FILE 07_misc_bits.ldr
+0 FILE 07a_elfire_misc_bits.ldr
 0 untitled model
-0 Name: 07_misc_bits.ldr
+0 Name: 07a_elfire_misc_bits.ldr
 0 Author: Andrew Walker
-1 7 0 0 0 1 0 0 0 1 0 -0 0 1 07 misc 1:27:00 part5 (asmbly).ldr
+1 7 0 0 0 1 0 0 0 1 0 -0 0 1 07a misc 1:27:00 part5 (asmbly).ldr
 0 NOFILE
-0 FILE 07 misc 1:25:46 part1.ldr
+0 FILE 07a misc 1:25:46 part1.ldr
 0 untitled model
-0 Name: 07 misc 1:25:46 part1.ldr
+0 Name: 07a misc 1:25:46 part1.ldr
 0 Author: Andrew Walker
 1 7 0 8 0 -1 -0 0 -0 1 -0 0 -0 -1 99780.dat
 1 7 0 6 14 1 0 0 0 0 1 0 -1 0 85984.dat
@@ -14,37 +14,37 @@
 1 7 -24 10 0 -0 1 -0 0 -0 -0.999999 -0.999999 -0 -0 54200.dat
 1 27 -10 8 -40 0 0 -0.999999 0 0.999999 -0 0.999999 -0 0 2420.dat
 0 NOFILE
-0 FILE 07 misc 1:26:14 part2.ldr
+0 FILE 07a misc 1:26:14 part2.ldr
 0 untitled model
-0 Name: 07 misc 1:26:14 part2.ldr
+0 Name: 07a misc 1:26:14 part2.ldr
 0 Author: Andrew Walker
 1 15 30 0 -20.000008 0 0 -0.999999 0 1 0 0.999999 0 0 2420.dat
 1 15 30.000004 0 -10 0 0 -0.999999 0 1 0 0.999999 0 0 85984.dat
 1 7 10 -8 -10 -0 0 1 0 1 0 -1 0 -0 3023.dat
 1 15 0 -16 -10 -0 0 1 0 1 0 -1 0 -0 3068b.dat
 0 NOFILE
-0 FILE 07 misc 1:26:34 part3 (asmbly).ldr
+0 FILE 07a misc 1:26:34 part3 (asmbly).ldr
 0 untitled model
-0 Name: 07 misc 1:26:34 part3 (asmbly).ldr
+0 Name: 07a misc 1:26:34 part3 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07 misc 1:25:46 part1.ldr
-1 15 0 8 0 1 0 0 0 1 0 -0 0 1 07 misc 1:26:14 part2.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07a misc 1:25:46 part1.ldr
+1 15 0 8 0 1 0 0 0 1 0 -0 0 1 07a misc 1:26:14 part2.ldr
 0 NOFILE
-0 FILE 07 misc 1:26:44 part4.ldr
+0 FILE 07a misc 1:26:44 part4.ldr
 0 untitled model
-0 Name: 07 misc 1:26:44 part4.ldr
+0 Name: 07a misc 1:26:44 part4.ldr
 0 Author: Andrew Walker
 1 15 0 0 0 -1 0 0 0 1 0 0 0 -1 2420.dat
 1 15 0 0 -10 -0 0 -1 -0 1 0 1 0 -0 85984.dat
 1 15 -40 -8 0 -1 -0 0 -0 1 -0 0 -0 -1 3623.dat
 1 15 -30 -16 -10 -1 -0 0 -0 1 -0 0 -0 -1 3068b.dat
 0 NOFILE
-0 FILE 07 misc 1:27:00 part5 (asmbly).ldr
+0 FILE 07a misc 1:27:00 part5 (asmbly).ldr
 0 untitled model
-0 Name: 07 misc 1:27:00 part5 (asmbly).ldr
+0 Name: 07a misc 1:27:00 part5 (asmbly).ldr
 0 Author: Andrew Walker
-1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07 misc 1:26:34 part3 (asmbly).ldr
-1 15 30 8 -40 1 0 0 0 1 0 -0 0 1 07 misc 1:26:44 part4.ldr
+1 15 0 0 0 1 0 0 0 1 0 -0 0 1 07a misc 1:26:34 part3 (asmbly).ldr
+1 15 30 8 -40 1 0 0 0 1 0 -0 0 1 07a misc 1:26:44 part4.ldr
 0 STEP
 1 15 -30 -8 -30 0 0 1 0 1 0 -1 0 0 2431.dat
 0 STEP
