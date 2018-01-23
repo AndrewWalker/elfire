@@ -1,0 +1,54 @@
+#!/bin/bash
+
+TARGET=../elfire.ldr
+rm $TARGET
+
+function appfile {
+    cat $1 >> $TARGET
+    printf "\n" >> $TARGET
+}
+
+head -n 6 00_elfire_setup.ldr >> $TARGET
+appfile 01_elfire_nose.ldr 
+appfile 02_elfire_intakes_port.ldr 
+appfile 02_elfire_intakes_starboard.ldr 
+appfile 03_elfire_rear_section.ldr
+appfile 04a_elfire_wings_port.ldr
+appfile 04b_elfire_wings_starboard.ldr
+appfile 05_elfire_canopy.ldr
+appfile 05a_elfire_canopy_sides_port.ldr
+appfile 05b_elfire_canopy_sides_starboard.ldr
+appfile 05c_elfire_canopy_sides_port.ldr
+appfile 05d_elfire_canopy_sides_starboard.ldr
+appfile 06_elfire_frame.ldr
+appfile 07a_elfire_misc_bits.ldr
+appfile 07b_elfire_misc_bits.ldr
+appfile 07c_elfire_misc_cannon.ldr
+appfile 08_elfire.ldr
+
+# Block moved (Panel 1 x 2 x 1 with Square corners)
+sed -i '.bak' 's/4865a/4865/g' $TARGET
+
+# Block moved (Plate 2 x 2 Round with Axlehole Type 1)
+sed -i '.bak' 's/4032a.dat/4032.dat/g' $TARGET
+
+# Block moved (Slope brick 45 2 x 1 inverted without inner stopper ring)
+sed -i '.bak' 's/3665a.dat/3665.dat/g' $TARGET
+
+# Block moved, but ldraw aliases misbehave (Plate 1 x 1 round)
+sed -i '.bak' 's/6141.dat/4073.dat/g' $TARGET
+
+# Block moved (Technic hub)
+sed -i '.bak' 's/6221.dat/424.dat/g' $TARGET
+
+# Block moved (Hinge Plate 1 x 2 with 2 fingers and *hollow* studs) - Rare block
+sed -i '.bak' 's/4276b.dat/4276.dat/g' $TARGET
+
+# Block moved (Hinge Plate 1 x 2 with 3 fingers and *hollow* studs) - Rare block
+sed -i '.bak' 's/4275b.dat/4275.dat/g' $TARGET
+
+# Remove blank lines
+sed -i '.bak' '/^\s*$/d' $TARGET
+
+# 60487 is equivalent to 4085d, but there is no alias
+
